@@ -1,0 +1,199 @@
+======================================================================
+Q01 | pdf
+Question: How many support tickets were resolved during the quarter?
+Expected: 420 tickets.
+Actual: During the quarter from April to June 2026, the support team resolved 420 tickets.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "pdf", "source": "operations_report.pdf", "source_path": "pdf/operations_report.pdf", "page": 1, "content_kind": "text", "extraction_method": "pymupdf_markdown_tables", "chunk_strategy": "recursive_characters", "chunk_index": 0, "source_chunk_index": 0, "chunk_id": "65bb5ed5-2c10-5842-aded-bfe5429c692c", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "65bb5ed5-2c10-5842-aded-bfe5429c692c", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q02 | pdf
+Question: How many employees and training hours did Engineering have?
+Expected: 18 employees and 144 training hours.
+Actual: Engineering had 18 employees and completed 144 training hours.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "pdf", "source": "operations_report.pdf", "source_path": "pdf/operations_report.pdf", "page": 2, "content_kind": "table_row", "extraction_method": "pymupdf_markdown_tables", "chunk_strategy": "complete_table_row", "section": "Department Training", "table_index": 1, "table_row": 2, "row_data": {"Department": "Engineering", "Employees": "18", "Training Hours": "144"}, "chunk_index": 1, "source_chunk_index": 2, "chunk_id": "c47a6df6-bb4b-531d-89a8-587212f4b35c", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "c47a6df6-bb4b-531d-89a8-587212f4b35c", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q03 | pdf
+Question: When are database backups scheduled and how long are they retained?
+Expected: Daily at 11 PM IST; retained for 30 days.
+Actual: Database backups are scheduled daily at 11 PM IST and are retained for 30 days.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "pdf", "source": "operations_report.pdf", "source_path": "pdf/operations_report.pdf", "page": 3, "content_kind": "text", "extraction_method": "pymupdf_markdown_tables", "chunk_strategy": "recursive_characters", "chunk_index": 0, "source_chunk_index": 5, "chunk_id": "509d1470-6d7a-5598-96e0-6c0858e80882", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "509d1470-6d7a-5598-96e0-6c0858e80882", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q04 | word
+Question: What should I start before running docker compose up -d?
+Expected: Start Docker Desktop.
+Actual: You should start Docker Desktop before running docker compose up -d.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "word", "source": "deployment_guide.docx", "source_path": "word/deployment_guide.docx", "section": "Starting the Application", "content_kind": "text", "element_index": 6, "element_category": "NarrativeText", "chunk_strategy": "paragraph_with_section", "source_chunk_index": 2, "chunk_id": "88f53127-1dfa-54a6-904d-2c6f090fc0bb", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "88f53127-1dfa-54a6-904d-2c6f090fc0bb", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q05 | word
+Question: Does the Qdrant Docker named volume count as a backup?
+Expected: No. It provides persistent storage but is not a backup.
+Actual: The Qdrant Docker named volume preserves the database files when the container is recreated with the same volume, but it is explicitly stated that the volume is not a backup.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "word", "source": "deployment_guide.docx", "source_path": "word/deployment_guide.docx", "section": "Persistent Storage", "content_kind": "text", "element_index": 8, "element_category": "NarrativeText", "chunk_strategy": "paragraph_with_section", "source_chunk_index": 3, "chunk_id": "29866305-9f3e-5ca4-8b13-faf5c8791f34", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "29866305-9f3e-5ca4-8b13-faf5c8791f34", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q06 | word
+Question: What should I check if the API cannot reach Qdrant?
+Expected: Check the container status and configured QDRANT_URL.
+Actual: If the API cannot reach Qdrant, you should first check the container status and the configured QDRANT_URL.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "word", "source": "deployment_guide.docx", "source_path": "word/deployment_guide.docx", "section": "Troubleshooting", "content_kind": "text", "element_index": 10, "element_category": "NarrativeText", "chunk_strategy": "paragraph_with_section", "source_chunk_index": 4, "chunk_id": "74a1a4ae-5231-5355-bf4e-d9f04d217a31", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "74a1a4ae-5231-5355-bf4e-d9f04d217a31", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q07 | csv
+Question: What are the price, sales, and rating of Laptop Alpha?
+Expected: 75000 INR; 230 units; rating 4.5 out of 5.
+Actual: Laptop Alpha is priced at 75000 INR, has sales of 230 units, and a rating of 4.5 out of 5.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "csv", "source": "products.csv", "source_path": "excel/products.csv", "content_kind": "table_row", "row": 2, "row_data": {"Product_ID": "P001", "Product": "Laptop Alpha", "Category": "Electronics", "Price_INR": 75000.0, "Sales_Units": 230, "Rating": 4.5}, "chunk_strategy": "complete_product_row", "source_chunk_index": 0, "chunk_id": "6015e576-cb78-5af2-bdd7-c5864abf02b3", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "6015e576-cb78-5af2-bdd7-c5864abf02b3", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q08 | calculation
+Question: Which product has the highest sales across all products?
+Expected: Pen Smooth, 1500 units, across 30 product rows.
+Actual: Across 30 stored product rows, the highest sales is 1500 units. Product(s): Pen Smooth.
+Abstained: False
+Citations: [{"source": "products.csv", "source_path": "excel/products.csv", "row": 28, "product_id": "P027"}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "exact_calculation_correct": true}
+Manual review: pending
+
+======================================================================
+Q09 | calculation
+Question: Which product has the highest rating across all products?
+Expected: Chair Comfort, 4.9 out of 5, across 30 product rows.
+Actual: Across 30 stored product rows, the highest rating is 4.9 out of 5. Product(s): Chair Comfort.
+Abstained: False
+Citations: [{"source": "products.csv", "source_path": "excel/products.csv", "row": 18, "product_id": "P017"}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "exact_calculation_correct": true}
+Manual review: pending
+
+======================================================================
+Q10 | image
+Question: What does the Local Search Architecture diagram show?
+Expected: User sends requests to FastAPI on Windows port 8000; FastAPI searches Qdrant in Docker on port 6333.
+Actual: The Local Search Architecture diagram shows a simplified view of the application and database connection involving three main components: the User (browser or API client) sending an HTTP request to FastAPI (an HTTP API running on Windows port 8000), which then sends a search request to Qdrant (a vector database running in Docker on port 6333). The diagram illustrates the flow where the user sends a question to FastAPI, which searches Qdrant and returns results. Qdrant stores embeddings, source text, and metadata. Model API calls are omitted in this diagram.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "image", "source": "architecture.png", "source_path": "images/architecture.png", "content_kind": "image_description", "description": "The image is a diagram titled \"Local Search Architecture,\" providing a simplified view of the application and database connection.\n\nIt consists of three main components arranged horizontally with arrows indicating the flow of requests:\n\n1. **User** (left box, light blue):\n   - Described as \"Browser or API client.\"\n   - Sends an HTTP request to the next component.\n\n2. **FastAPI** (middle box, light green):\n   - Described as \"HTTP API on Windows Port 8000.\"\n   - Receives the HTTP request from the User.\n   - Sends a search request to the next component.\n\n3. **Qdrant** (right box, light purple):\n   - Described as \"Vector database in Docker Port 6333.\"\n   - Receives the search request from FastAPI.\n\nBelow the diagram, a note explains the process: The user sends a question to FastAPI, which searches Qdrant and returns results. Qdrant stores embeddings, source text, and metadata. Model API calls are omitted in this diagram.\n\nAt the bottom left, there is a small label: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"", "description_model": "gpt-4.1-mini", "image_sha256": "e0e7bb1abda61ada2d3f21d4c955889ab1f10e9c7cd4f355f62c793db245fa29", "description_cache_key": "8da48c2e7c020e773bde7c6ee99611ad3703840125f5b2be3a20d7f28bac2ea6", "review_status": "manually_verified", "review_method": "User compared description with source image", "reviewed_description_sha256": "071a3472a0a91886c214afb6362db8b00b4da9fd47ec3f8345fd1249011eb51c", "chunk_strategy": "complete_image_description", "source_chunk_index": 0, "chunk_id": "696516e0-70d4-507b-a1ab-214c31740080", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "696516e0-70d4-507b-a1ab-214c31740080", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q11 | image
+Question: What sequence does the Docker Application Deployment diagram show?
+Expected: Source code and Dockerfile -> Docker image -> running container; docker build followed by docker run. The current FastAPI app still runs directly on Windows.
+Actual: The Docker Application Deployment diagram shows a sequence starting with Source Code (application files and Dockerfile), then building a Docker Image (packaged application and dependencies) using "docker build," and finally running a container (an instance of the image executing the application) using "docker run."
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "image", "source": "deployment_flow.png", "source_path": "images/deployment_flow.png", "content_kind": "image_description", "description": "The image is a conceptual diagram titled \"Docker Application Deployment,\" illustrating the build and run workflow for Docker applications.\n\nIt consists of three main labeled boxes arranged horizontally with arrows pointing from left to right:\n\n1. **Source Code** (light blue box on the left)\n   - Description: \"Application files + Dockerfile\"\n   - Represents the initial input containing the application source code and Dockerfile.\n\n2. **Docker Image** (light green box in the center)\n   - Description: \"Packaged application + dependencies\"\n   - Represents the Docker image created by building the source code.\n   - The arrow from \"Source Code\" to \"Docker Image\" is labeled \"docker build.\"\n\n3. **Running Container** (light purple box on the right)\n   - Description: \"An instance of the image executing the application\"\n   - Represents the running container created from the Docker image.\n   - The arrow from \"Docker Image\" to \"Running Container\" is labeled \"docker run.\"\n\nBelow the diagram, there is a note explaining the process: \"Build an image from source code, then start a container from that image. This is a general example; our current FastAPI application runs directly on Windows.\"\n\nAt the bottom left, there is a small footer text: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"", "description_model": "gpt-4.1-mini", "image_sha256": "d695b3be9c9f61a00da10d6fcd503895091d661f3603bff124ad54a21e8d23cb", "description_cache_key": "88313d7a8e9316cc3fbced582960f3d8e80f24f468850c4e14f4b3be170fc75f", "review_status": "manually_verified", "review_method": "User compared description with source image", "reviewed_description_sha256": "d12a0368eb77a689665bb63fb76dc8fb536a115d06350f10df655a024addecc2", "chunk_strategy": "complete_image_description", "source_chunk_index": 0, "chunk_id": "5f070648-8c3c-5585-8934-bc211c04056d", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "5f070648-8c3c-5585-8934-bc211c04056d", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q12 | image
+Question: In the Product Sales Comparison chart, which of the three displayed products has the highest sales?
+Expected: Keyboard Swift, 480 units, among the three displayed products.
+Actual: Keyboard Swift has the highest sales among the three products displayed in the Product Sales Comparison chart, with 480 units sold.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "image", "source": "sales_chart.png", "source_path": "images/sales_chart.png", "content_kind": "image_description", "description": "The image is a bar chart titled \"Product Sales Comparison.\" It compares the sales units of three products: Laptop Alpha, Monitor ClearView, and Keyboard Swift. \n\n- Laptop Alpha has sales of 230 units, represented by a blue bar.\n- Monitor ClearView has sales of 310 units, represented by a teal bar.\n- Keyboard Swift has the highest sales at 480 units, represented by a purple bar.\n\nThe y-axis is labeled \"Sales units\" and ranges from 0 to 500 in increments of 100. Each bar has the exact sales number displayed above it in bold black text. At the bottom left corner, there is a note stating, \"Fictional sample data • Values match products.csv.\"", "description_model": "gpt-4.1-mini", "image_sha256": "b258e8723947d916755e25a71194df9affc77d563fdd3f23af37ba5181c39463", "description_cache_key": "05b8e40a3ee58f10b5c16606d51973af0ce05da01ff7106d8f2389974f8e9fec", "review_status": "manually_verified", "review_method": "User compared description with source image", "reviewed_description_sha256": "5627a3b9d398db0dfb31ba3221302c341ecef5f06e04e1a48c410644b95dc431", "chunk_strategy": "complete_image_description", "source_chunk_index": 0, "chunk_id": "0c896db7-0a55-5cf9-9cd0-cee7a2db0f79", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "0c896db7-0a55-5cf9-9cd0-cee7a2db0f79", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q13 | image
+Question: What does the product_laptop.png photograph show?
+Expected: An open silver laptop with a blue screen on a light gray surface.
+Actual: The product_laptop.png photograph shows the Laptop Alpha, which is an electronic product priced at 75000 INR with sales of 230 units and a rating of 4.5 out of 5.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "csv", "source": "products.csv", "source_path": "excel/products.csv", "content_kind": "table_row", "row": 2, "row_data": {"Product_ID": "P001", "Product": "Laptop Alpha", "Category": "Electronics", "Price_INR": 75000.0, "Sales_Units": 230, "Rating": 4.5}, "chunk_strategy": "complete_product_row", "source_chunk_index": 0, "chunk_id": "6015e576-cb78-5af2-bdd7-c5864abf02b3", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "6015e576-cb78-5af2-bdd7-c5864abf02b3", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": false, "expected_evidence_retrieved": false}
+Manual review: pending
+
+======================================================================
+Q14 | image
+Question: What furniture and equipment appear in office_workspace.png?
+Expected: A desk, office chair, monitor, keyboard, mouse, and desk lamp.
+Actual: The office_workspace.png image shows a wooden desk with black metal legs, a large widescreen computer monitor, a black keyboard, a black mouse, a small container with black pens, a closed notebook with a pen on top, a small potted plant, and a sleek black desk lamp on the desk. In front of the desk is a black ergonomic office chair with a mesh backrest and adjustable armrests. Additionally, there is a large potted plant with broad green leaves on the left side of the image, a textured beige rug under the desk and chair, and a framed landscape photograph on the wall above the desk.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "image", "source": "office_workspace.png", "source_path": "images/office_workspace.png", "content_kind": "image_description", "description": "The image shows a modern, minimalist home office setup next to a large window with a cityscape view. The workspace features a wooden desk with black metal legs. On the desk, there is a large, widescreen computer monitor, a black keyboard, and a black mouse. To the left of the monitor, there is a small container holding black pens and a closed notebook with a pen resting on top. To the right of the monitor, there is a small potted plant and a sleek black desk lamp.\n\nIn front of the desk is a black ergonomic office chair with a mesh backrest and adjustable armrests. The floor is wooden with a textured beige rug underneath the desk and chair. On the left side of the image, there is a large potted plant with broad green leaves. A framed landscape photograph featuring mountains and a lake hangs on the wall above the desk. The room is well-lit with natural light coming through the window, creating a bright and inviting workspace.", "description_model": "gpt-4.1-mini", "image_sha256": "a3f920d07700523f2cd05964f7759d3345110e290bf0f6fdf3cbbe9b69d1ab3e", "description_cache_key": "936773bc067e043b1570578ba06b06e4418a3f301ada1c744e9fa1b91b008677", "review_status": "manually_verified", "review_method": "User compared description with source image", "reviewed_description_sha256": "5ad3d9650fe1a7432982392f374e0525ee2e02a649f53d5ff4ff7265047dc8e8", "chunk_strategy": "complete_image_description", "source_chunk_index": 0, "chunk_id": "4536d107-cd04-5917-ab88-ddd30ae47572", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "4536d107-cd04-5917-ab88-ddd30ae47572", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q15 | markdown
+Question: What are the customer support working hours?
+Expected: Monday to Friday, 9 AM to 6 PM IST.
+Actual: Customer support working hours are Monday to Friday, from 9 AM to 6 PM IST.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "markdown", "source": "support_policy.md", "source_path": "other/support_policy.md", "content_kind": "section", "extraction_method": "text_loader", "heading_1": "Customer Support Policy", "heading_2": "Support Hours", "section": "Customer Support Policy > Support Hours", "chunk_strategy": "headings_then_characters", "source_chunk_index": 0, "chunk_id": "c806f42c-3ed2-5555-9513-ae0e9b2f1eb9", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "c806f42c-3ed2-5555-9513-ae0e9b2f1eb9", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q16 | markdown
+Question: When are unresolved critical issues escalated, and to whom?
+Expected: After 2 hours, to the support manager.
+Actual: Unresolved critical issues are escalated to the support manager after 2 hours.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "markdown", "source": "support_policy.md", "source_path": "other/support_policy.md", "content_kind": "section", "extraction_method": "text_loader", "heading_1": "Customer Support Policy", "heading_2": "Escalation", "section": "Customer Support Policy > Escalation", "chunk_strategy": "headings_then_characters", "source_chunk_index": 2, "chunk_id": "e1d2f0c6-4978-5f21-9625-e4a8237ecd70", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "e1d2f0c6-4978-5f21-9625-e4a8237ecd70", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q17 | html
+Question: Within how many days of delivery can a product be returned?
+Expected: Within 14 days of delivery.
+Actual: Products may be returned within 14 days of delivery.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "html", "source": "returns_policy.html", "source_path": "other/returns_policy.html", "content_kind": "section", "extraction_method": "beautifulsoup_table_aware", "title": "Product Returns Policy", "table_count": 1, "heading_1": "Product Returns Policy", "heading_2": "Return Window", "section": "Product Returns Policy > Return Window", "chunk_strategy": "headings_then_characters", "source_chunk_index": 0, "chunk_id": "0c96871a-abe1-55ad-85b3-774c6acab94b", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "0c96871a-abe1-55ad-85b3-774c6acab94b", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q18 | html
+Question: Who pays return shipping when the customer changes their mind?
+Expected: The customer.
+Actual: When the customer changes their mind, the customer pays for the return shipping.
+Abstained: False
+Citations: [{"evidence_id": 1, "metadata": {"type": "html", "source": "returns_policy.html", "source_path": "other/returns_policy.html", "content_kind": "section", "extraction_method": "beautifulsoup_table_aware", "title": "Product Returns Policy", "table_count": 1, "heading_1": "Product Returns Policy", "heading_2": "Return Shipping", "section": "Product Returns Policy > Return Shipping", "chunk_strategy": "headings_then_characters", "source_chunk_index": 3, "chunk_id": "f16a0b48-8046-5bd3-84db-493649550d5b", "embedding_model": "gemini-embedding-2", "embedding_dimensions": 3072, "_id": "f16a0b48-8046-5bd3-84db-493649550d5b", "_collection_name": "multi_format_documents"}}]
+Checks: {"abstention_matches": true, "citation_structure_ok": true, "expected_citation_found": true, "expected_evidence_retrieved": true}
+Manual review: pending
+
+======================================================================
+Q19 | missing_information
+Question: What is the CEO's personal phone number?
+Expected: Abstain: this information is not in the dataset.
+Actual: The retrieved information is insufficient to answer this question.
+Abstained: True
+Citations: []
+Checks: {"abstention_matches": true, "citation_structure_ok": true}
+Manual review: pending
+
+======================================================================
+Q20 | missing_information
+Question: What information is on page 7 of the report?
+Expected: Abstain: the report has only three pages.
+Actual: The retrieved information is insufficient to answer this question.
+Abstained: True
+Citations: []
+Checks: {"abstention_matches": true, "citation_structure_ok": true}
+Manual review: pending

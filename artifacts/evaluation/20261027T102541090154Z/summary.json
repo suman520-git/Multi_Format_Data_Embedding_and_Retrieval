@@ -1,0 +1,20 @@
+{
+  "questions": 20,
+  "completed_without_error": 20,
+  "request_or_processing_errors": 0,
+  "automatic_checks_passed": 19,
+  "flagged_cases": [
+    "Q13"
+  ],
+  "questions_by_category": {
+    "pdf": 3,
+    "word": 3,
+    "csv": 1,
+    "calculation": 2,
+    "image": 5,
+    "markdown": 2,
+    "html": 2,
+    "missing_information": 2
+  },
+  "manual_answer_review": "pending"
+}

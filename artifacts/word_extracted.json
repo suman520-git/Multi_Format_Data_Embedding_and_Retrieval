@@ -1,0 +1,163 @@
+[
+  {
+    "page_content": "Application Deployment Guide",
+    "metadata": {
+      "type": "word",
+      "source": "deployment_guide.docx",
+      "source_path": "word/deployment_guide.docx",
+      "section": "Application Deployment Guide",
+      "content_kind": "heading",
+      "element_index": 1,
+      "element_category": "Title"
+    }
+  },
+  {
+    "page_content": "This guide describes local deployment, persistent storage, and basic troubleshooting for Multi-Format Data Embedding and Retrieval.",
+    "metadata": {
+      "type": "word",
+      "source": "deployment_guide.docx",
+      "source_path": "word/deployment_guide.docx",
+      "section": "Application Deployment Guide",
+      "content_kind": "text",
+      "element_index": 2,
+      "element_category": "NarrativeText"
+    }
+  },
+  {
+    "page_content": "Local Development",
+    "metadata": {
+      "type": "word",
+      "source": "deployment_guide.docx",
+      "source_path": "word/deployment_guide.docx",
+      "section": "Local Development",
+      "content_kind": "heading",
+      "element_index": 3,
+      "element_category": "Title"
+    }
+  },
+  {
+    "page_content": "The application API runs directly on the developer’s Windows computer. FastAPI serves HTTP requests on port 8000. Qdrant runs in Docker and is accessible through local port 6333.",
+    "metadata": {
+      "type": "word",
+      "source": "deployment_guide.docx",
+      "source_path": "word/deployment_guide.docx",
+      "section": "Local Development",
+      "content_kind": "text",
+      "element_index": 4,
+      "element_category": "NarrativeText"
+    }
+  },
+  {
+    "page_content": "Starting the Application",
+    "metadata": {
+      "type": "word",
+      "source": "deployment_guide.docx",
+      "source_path": "word/deployment_guide.docx",
+      "section": "Starting the Application",
+      "content_kind": "heading",
+      "element_index": 5,
+      "element_category": "Title"
+    }
+  },
+  {
+    "page_content": "Start Docker Desktop before starting Qdrant. Run docker compose up -d from the project root. After Qdrant is available, start the FastAPI application.",
+    "metadata": {
+      "type": "word",
+      "source": "deployment_guide.docx",
+      "source_path": "word/deployment_guide.docx",
+      "section": "Starting the Application",
+      "content_kind": "text",
+      "element_index": 6,
+      "element_category": "NarrativeText"
+    }
+  },
+  {
+    "page_content": "Persistent Storage",
+    "metadata": {
+      "type": "word",
+      "source": "deployment_guide.docx",
+      "source_path": "word/deployment_guide.docx",
+      "section": "Persistent Storage",
+      "content_kind": "heading",
+      "element_index": 7,
+      "element_category": "Title"
+    }
+  },
+  {
+    "page_content": "Qdrant stores its database files in a Docker named volume. Recreating the container with the same volume preserves the database files. The volume is not a backup.",
+    "metadata": {
+      "type": "word",
+      "source": "deployment_guide.docx",
+      "source_path": "word/deployment_guide.docx",
+      "section": "Persistent Storage",
+      "content_kind": "text",
+      "element_index": 8,
+      "element_category": "NarrativeText"
+    }
+  },
+  {
+    "page_content": "Troubleshooting",
+    "metadata": {
+      "type": "word",
+      "source": "deployment_guide.docx",
+      "source_path": "word/deployment_guide.docx",
+      "section": "Troubleshooting",
+      "content_kind": "heading",
+      "element_index": 9,
+      "element_category": "Title"
+    }
+  },
+  {
+    "page_content": "If the API cannot reach Qdrant, first check the container status and the configured QDRANT_URL. If an external model request fails, inspect the provider’s error message before changing application code.",
+    "metadata": {
+      "type": "word",
+      "source": "deployment_guide.docx",
+      "source_path": "word/deployment_guide.docx",
+      "section": "Troubleshooting",
+      "content_kind": "text",
+      "element_index": 10,
+      "element_category": "NarrativeText"
+    }
+  },
+  {
+    "page_content": "Service Reference",
+    "metadata": {
+      "type": "word",
+      "source": "deployment_guide.docx",
+      "source_path": "word/deployment_guide.docx",
+      "section": "Service Reference",
+      "content_kind": "heading",
+      "element_index": 11,
+      "element_category": "Title"
+    }
+  },
+  {
+    "page_content": "Service: FastAPI; Location: Windows host; Port: 8000.\nService: Qdrant; Location: Docker container; Port: 6333.",
+    "metadata": {
+      "type": "word",
+      "source": "deployment_guide.docx",
+      "source_path": "word/deployment_guide.docx",
+      "section": "Service Reference",
+      "content_kind": "table",
+      "element_index": 12,
+      "element_category": "Table",
+      "table_rows": [
+        [
+          "Service",
+          "Location",
+          "Port"
+        ],
+        [
+          "FastAPI",
+          "Windows host",
+          "8000"
+        ],
+        [
+          "Qdrant",
+          "Docker container",
+          "6333"
+        ]
+      ]
+    }
+  }
+]

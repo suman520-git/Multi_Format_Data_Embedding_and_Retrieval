@@ -1,0 +1,72 @@
+[
+  {
+    "page_content": "The image is a diagram titled \"Local Search Architecture,\" providing a simplified view of the application and database connection.\n\nIt consists of three main components arranged horizontally with arrows indicating the flow of requests:\n\n1. **User** (left box, light blue):\n   - Described as \"Browser or API client.\"\n   - Sends an HTTP request to the next component.\n\n2. **FastAPI** (middle box, light green):\n   - Described as \"HTTP API on Windows Port 8000.\"\n   - Receives the HTTP request from the User.\n   - Sends a search request to the next component.\n\n3. **Qdrant** (right box, light purple):\n   - Described as \"Vector database in Docker Port 6333.\"\n   - Receives the search request from FastAPI.\n\nBelow the diagram, a note explains the process: The user sends a question to FastAPI, which searches Qdrant and returns results. Qdrant stores embeddings, source text, and metadata. Model API calls are omitted in this diagram.\n\nAt the bottom left, there is a small label: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"",
+    "metadata": {
+      "type": "image",
+      "source": "architecture.png",
+      "source_path": "images/architecture.png",
+      "content_kind": "image_description",
+      "description": "The image is a diagram titled \"Local Search Architecture,\" providing a simplified view of the application and database connection.\n\nIt consists of three main components arranged horizontally with arrows indicating the flow of requests:\n\n1. **User** (left box, light blue):\n   - Described as \"Browser or API client.\"\n   - Sends an HTTP request to the next component.\n\n2. **FastAPI** (middle box, light green):\n   - Described as \"HTTP API on Windows Port 8000.\"\n   - Receives the HTTP request from the User.\n   - Sends a search request to the next component.\n\n3. **Qdrant** (right box, light purple):\n   - Described as \"Vector database in Docker Port 6333.\"\n   - Receives the search request from FastAPI.\n\nBelow the diagram, a note explains the process: The user sends a question to FastAPI, which searches Qdrant and returns results. Qdrant stores embeddings, source text, and metadata. Model API calls are omitted in this diagram.\n\nAt the bottom left, there is a small label: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"",
+      "description_model": "gpt-4.1-mini",
+      "image_sha256": "e0e7bb1abda61ada2d3f21d4c955889ab1f10e9c7cd4f355f62c793db245fa29",
+      "description_cache_key": "8da48c2e7c020e773bde7c6ee99611ad3703840125f5b2be3a20d7f28bac2ea6",
+      "review_status": "pending"
+    }
+  },
+  {
+    "page_content": "The image is a conceptual diagram titled \"Docker Application Deployment,\" illustrating the build and run workflow for Docker applications.\n\nIt consists of three main labeled boxes arranged horizontally with arrows pointing from left to right:\n\n1. **Source Code** (light blue box on the left)\n   - Description: \"Application files + Dockerfile\"\n   - Represents the initial input containing the application source code and Dockerfile.\n\n2. **Docker Image** (light green box in the center)\n   - Description: \"Packaged application + dependencies\"\n   - Represents the Docker image created by building the source code.\n   - The arrow from \"Source Code\" to \"Docker Image\" is labeled \"docker build.\"\n\n3. **Running Container** (light purple box on the right)\n   - Description: \"An instance of the image executing the application\"\n   - Represents the running container created from the Docker image.\n   - The arrow from \"Docker Image\" to \"Running Container\" is labeled \"docker run.\"\n\nBelow the diagram, there is a note explaining the process: \"Build an image from source code, then start a container from that image. This is a general example; our current FastAPI application runs directly on Windows.\"\n\nAt the bottom left, there is a small footer text: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"",
+    "metadata": {
+      "type": "image",
+      "source": "deployment_flow.png",
+      "source_path": "images/deployment_flow.png",
+      "content_kind": "image_description",
+      "description": "The image is a conceptual diagram titled \"Docker Application Deployment,\" illustrating the build and run workflow for Docker applications.\n\nIt consists of three main labeled boxes arranged horizontally with arrows pointing from left to right:\n\n1. **Source Code** (light blue box on the left)\n   - Description: \"Application files + Dockerfile\"\n   - Represents the initial input containing the application source code and Dockerfile.\n\n2. **Docker Image** (light green box in the center)\n   - Description: \"Packaged application + dependencies\"\n   - Represents the Docker image created by building the source code.\n   - The arrow from \"Source Code\" to \"Docker Image\" is labeled \"docker build.\"\n\n3. **Running Container** (light purple box on the right)\n   - Description: \"An instance of the image executing the application\"\n   - Represents the running container created from the Docker image.\n   - The arrow from \"Docker Image\" to \"Running Container\" is labeled \"docker run.\"\n\nBelow the diagram, there is a note explaining the process: \"Build an image from source code, then start a container from that image. This is a general example; our current FastAPI application runs directly on Windows.\"\n\nAt the bottom left, there is a small footer text: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"",
+      "description_model": "gpt-4.1-mini",
+      "image_sha256": "d695b3be9c9f61a00da10d6fcd503895091d661f3603bff124ad54a21e8d23cb",
+      "description_cache_key": "88313d7a8e9316cc3fbced582960f3d8e80f24f468850c4e14f4b3be170fc75f",
+      "review_status": "pending"
+    }
+  },
+  {
+    "page_content": "The image is a bar chart titled \"Product Sales Comparison.\" It compares the sales units of three products: Laptop Alpha, Monitor ClearView, and Keyboard Swift. \n\n- Laptop Alpha has sales of 230 units, represented by a blue bar.\n- Monitor ClearView has sales of 310 units, represented by a teal bar.\n- Keyboard Swift has the highest sales at 480 units, represented by a purple bar.\n\nThe y-axis is labeled \"Sales units\" and ranges from 0 to 500 in increments of 100. Each bar has the exact sales number displayed above it in bold black text. At the bottom left corner, there is a note stating, \"Fictional sample data • Values match products.csv.\"",
+    "metadata": {
+      "type": "image",
+      "source": "sales_chart.png",
+      "source_path": "images/sales_chart.png",
+      "content_kind": "image_description",
+      "description": "The image is a bar chart titled \"Product Sales Comparison.\" It compares the sales units of three products: Laptop Alpha, Monitor ClearView, and Keyboard Swift. \n\n- Laptop Alpha has sales of 230 units, represented by a blue bar.\n- Monitor ClearView has sales of 310 units, represented by a teal bar.\n- Keyboard Swift has the highest sales at 480 units, represented by a purple bar.\n\nThe y-axis is labeled \"Sales units\" and ranges from 0 to 500 in increments of 100. Each bar has the exact sales number displayed above it in bold black text. At the bottom left corner, there is a note stating, \"Fictional sample data • Values match products.csv.\"",
+      "description_model": "gpt-4.1-mini",
+      "image_sha256": "b258e8723947d916755e25a71194df9affc77d563fdd3f23af37ba5181c39463",
+      "description_cache_key": "05b8e40a3ee58f10b5c16606d51973af0ce05da01ff7106d8f2389974f8e9fec",
+      "review_status": "pending"
+    }
+  },
+  {
+    "page_content": "The image shows a modern laptop placed on a light gray surface. The laptop is open, displaying a blank blue screen with a subtle gradient and wave pattern. The laptop has a sleek, metallic silver body with a black keyboard. The keyboard includes a large trackpad centered below it. The laptop's screen has thin black bezels, and the overall design is minimalist and clean. The laptop is positioned at a slight angle, showing the left side where two USB-C ports and a headphone jack are visible. The background is plain and uncluttered, emphasizing the laptop as the main subject.",
+    "metadata": {
+      "type": "image",
+      "source": "product_laptop.png",
+      "source_path": "images/product_laptop.png",
+      "content_kind": "image_description",
+      "description": "The image shows a modern laptop placed on a light gray surface. The laptop is open, displaying a blank blue screen with a subtle gradient and wave pattern. The laptop has a sleek, metallic silver body with a black keyboard. The keyboard includes a large trackpad centered below it. The laptop's screen has thin black bezels, and the overall design is minimalist and clean. The laptop is positioned at a slight angle, showing the left side where two USB-C ports and a headphone jack are visible. The background is plain and uncluttered, emphasizing the laptop as the main subject.",
+      "description_model": "gpt-4.1-mini",
+      "image_sha256": "a9be06a68d4d4e97b705a38acf33bf4c31ef6d307bc0d13f3946f9f5a0f9615f",
+      "description_cache_key": "553730751df2af9d88028597641bdced39d6a03044f98ad8b63bcc74b5d5c045",
+      "review_status": "pending"
+    }
+  },
+  {
+    "page_content": "The image shows a modern, minimalist home office setup next to a large window with a cityscape view. The workspace features a wooden desk with black metal legs. On the desk, there is a large, widescreen computer monitor, a black keyboard, and a black mouse. To the left of the monitor, there is a small container holding black pens and a closed notebook with a pen resting on top. To the right of the monitor, there is a small potted plant and a sleek black desk lamp.\n\nIn front of the desk is a black ergonomic office chair with a mesh backrest and adjustable armrests. The floor is wooden with a textured beige rug underneath the desk and chair. On the left side of the image, there is a large potted plant with broad green leaves. A framed landscape photograph featuring mountains and a lake hangs on the wall above the desk. The room is well-lit with natural light coming through the window, creating a bright and inviting workspace.",
+    "metadata": {
+      "type": "image",
+      "source": "office_workspace.png",
+      "source_path": "images/office_workspace.png",
+      "content_kind": "image_description",
+      "description": "The image shows a modern, minimalist home office setup next to a large window with a cityscape view. The workspace features a wooden desk with black metal legs. On the desk, there is a large, widescreen computer monitor, a black keyboard, and a black mouse. To the left of the monitor, there is a small container holding black pens and a closed notebook with a pen resting on top. To the right of the monitor, there is a small potted plant and a sleek black desk lamp.\n\nIn front of the desk is a black ergonomic office chair with a mesh backrest and adjustable armrests. The floor is wooden with a textured beige rug underneath the desk and chair. On the left side of the image, there is a large potted plant with broad green leaves. A framed landscape photograph featuring mountains and a lake hangs on the wall above the desk. The room is well-lit with natural light coming through the window, creating a bright and inviting workspace.",
+      "description_model": "gpt-4.1-mini",
+      "image_sha256": "a3f920d07700523f2cd05964f7759d3345110e290bf0f6fdf3cbbe9b69d1ab3e",
+      "description_cache_key": "936773bc067e043b1570578ba06b06e4418a3f301ada1c744e9fa1b91b008677",
+      "review_status": "pending"
+    }
+  }
+]

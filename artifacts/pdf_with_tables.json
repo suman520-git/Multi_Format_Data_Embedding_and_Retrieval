@@ -1,0 +1,35 @@
+[
+  {
+    "page_content": "Quarterly Operations Report\nApril to June 2026\nExecutive Summary\nThis fictional report covers April to June 2026. The support team resolved 420\ntickets. Average first-response time was 2 hours.\nFictional sample data | April to June 2026\nPage 1 of 3",
+    "metadata": {
+      "type": "pdf",
+      "source": "operations_report.pdf",
+      "source_path": "pdf/operations_report.pdf",
+      "page": 1,
+      "content_kind": "page",
+      "extraction_method": "pymupdf_markdown_tables"
+    }
+  },
+  {
+    "page_content": "Department Training\nThe following table summarizes training completed during the quarter.\nDepartment\nEmployees\nTraining Hours\nEngineering\n18\n144\nSales\n12\n60\nSupport\n10\n80\nFictional sample data | April to June 2026\nPage 2 of 3\n\n\n|Department|Employees|Training Hours|\n|---|---|---|\n|Engineering|18|144|\n|Sales|12|60|\n|Support|10|80|",
+    "metadata": {
+      "type": "pdf",
+      "source": "operations_report.pdf",
+      "source_path": "pdf/operations_report.pdf",
+      "page": 2,
+      "content_kind": "page",
+      "extraction_method": "pymupdf_markdown_tables"
+    }
+  },
+  {
+    "page_content": "Storage and Recovery\nDatabase backups are scheduled daily at 11 PM IST. Backups are retained for 30\ndays. A recovery exercise is performed once every quarter.\nFictional sample data | April to June 2026\nPage 3 of 3",
+    "metadata": {
+      "type": "pdf",
+      "source": "operations_report.pdf",
+      "source_path": "pdf/operations_report.pdf",
+      "page": 3,
+      "content_kind": "page",
+      "extraction_method": "pymupdf_markdown_tables"
+    }
+  }
+]

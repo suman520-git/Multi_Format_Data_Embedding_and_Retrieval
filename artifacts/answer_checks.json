@@ -1,0 +1,553 @@
+[
+  {
+    "expected": "420 tickets; citation to PDF page 1.",
+    "result": {
+      "question": "How many support tickets were resolved during the quarter?",
+      "method": "retrieval",
+      "answer": "During the quarter from April to June 2026, the support team resolved 420 tickets.",
+      "abstained": false,
+      "citations": [
+        {
+          "evidence_id": 1,
+          "metadata": {
+            "type": "pdf",
+            "source": "operations_report.pdf",
+            "source_path": "pdf/operations_report.pdf",
+            "page": 1,
+            "content_kind": "text",
+            "extraction_method": "pymupdf_markdown_tables",
+            "chunk_strategy": "recursive_characters",
+            "chunk_index": 0,
+            "source_chunk_index": 0,
+            "chunk_id": "65bb5ed5-2c10-5842-aded-bfe5429c692c",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "65bb5ed5-2c10-5842-aded-bfe5429c692c",
+            "_collection_name": "multi_format_documents"
+          }
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "score": 0.7401768,
+          "page_content": "Quarterly Operations Report\nApril to June 2026\nExecutive Summary\nThis fictional report covers April to June 2026. The support team resolved 420\ntickets. Average first-response time was 2 hours.\nFictional sample data | April to June 2026\nPage 1 of 3",
+          "metadata": {
+            "type": "pdf",
+            "source": "operations_report.pdf",
+            "source_path": "pdf/operations_report.pdf",
+            "page": 1,
+            "content_kind": "text",
+            "extraction_method": "pymupdf_markdown_tables",
+            "chunk_strategy": "recursive_characters",
+            "chunk_index": 0,
+            "source_chunk_index": 0,
+            "chunk_id": "65bb5ed5-2c10-5842-aded-bfe5429c692c",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "65bb5ed5-2c10-5842-aded-bfe5429c692c",
+            "_collection_name": "multi_format_documents"
+          }
+        },
+        {
+          "rank": 2,
+          "score": 0.66152656,
+          "page_content": "Department Training\nDepartment: Support; Employees: 10; Training Hours: 80.",
+          "metadata": {
+            "type": "pdf",
+            "source": "operations_report.pdf",
+            "source_path": "pdf/operations_report.pdf",
+            "page": 2,
+            "content_kind": "table_row",
+            "extraction_method": "pymupdf_markdown_tables",
+            "chunk_strategy": "complete_table_row",
+            "section": "Department Training",
+            "table_index": 1,
+            "table_row": 4,
+            "row_data": {
+              "Department": "Support",
+              "Employees": "10",
+              "Training Hours": "80"
+            },
+            "chunk_index": 3,
+            "source_chunk_index": 4,
+            "chunk_id": "8d269641-79a8-5d3a-a399-9a7cb46d4978",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "8d269641-79a8-5d3a-a399-9a7cb46d4978",
+            "_collection_name": "multi_format_documents"
+          }
+        },
+        {
+          "rank": 3,
+          "score": 0.63759315,
+          "page_content": "Customer Support Policy > Priority Levels\nCritical issues have a target first-response time of 30 minutes.  \nStandard issues have a target first-response time of 4 business hours.",
+          "metadata": {
+            "type": "markdown",
+            "source": "support_policy.md",
+            "source_path": "other/support_policy.md",
+            "content_kind": "section",
+            "extraction_method": "text_loader",
+            "heading_1": "Customer Support Policy",
+            "heading_2": "Priority Levels",
+            "section": "Customer Support Policy > Priority Levels",
+            "chunk_strategy": "headings_then_characters",
+            "source_chunk_index": 1,
+            "chunk_id": "8a98d47e-8757-577b-933d-b82d015a5d50",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "8a98d47e-8757-577b-933d-b82d015a5d50",
+            "_collection_name": "multi_format_documents"
+          }
+        },
+        {
+          "rank": 4,
+          "score": 0.6364341,
+          "page_content": "Customer Support Policy > Supported Channels\nCustomers can contact support through email and the support portal.",
+          "metadata": {
+            "type": "markdown",
+            "source": "support_policy.md",
+            "source_path": "other/support_policy.md",
+            "content_kind": "section",
+            "extraction_method": "text_loader",
+            "heading_1": "Customer Support Policy",
+            "heading_2": "Supported Channels",
+            "section": "Customer Support Policy > Supported Channels",
+            "chunk_strategy": "headings_then_characters",
+            "source_chunk_index": 3,
+            "chunk_id": "a5b3378b-6190-524b-b07b-220b239aec10",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "a5b3378b-6190-524b-b07b-220b239aec10",
+            "_collection_name": "multi_format_documents"
+          }
+        },
+        {
+          "rank": 5,
+          "score": 0.6321354,
+          "page_content": "Storage and Recovery\nDatabase backups are scheduled daily at 11 PM IST. Backups are retained for 30\ndays. A recovery exercise is performed once every quarter.\nFictional sample data | April to June 2026\nPage 3 of 3",
+          "metadata": {
+            "type": "pdf",
+            "source": "operations_report.pdf",
+            "source_path": "pdf/operations_report.pdf",
+            "page": 3,
+            "content_kind": "text",
+            "extraction_method": "pymupdf_markdown_tables",
+            "chunk_strategy": "recursive_characters",
+            "chunk_index": 0,
+            "source_chunk_index": 5,
+            "chunk_id": "509d1470-6d7a-5598-96e0-6c0858e80882",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "509d1470-6d7a-5598-96e0-6c0858e80882",
+            "_collection_name": "multi_format_documents"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "expected": "User, FastAPI on Windows port 8000, Qdrant in Docker port 6333.",
+    "result": {
+      "question": "What does the Local Search Architecture diagram show?",
+      "method": "retrieval",
+      "answer": "The Local Search Architecture diagram shows a simplified view of the application and database connection involving three main components: the User (browser or API client) sending an HTTP request to FastAPI (an HTTP API on Windows Port 8000), which then sends a search request to Qdrant (a vector database in Docker Port 6333). The process involves the user sending a question to FastAPI, which searches Qdrant and returns results. Qdrant stores embeddings, source text, and metadata. Model API calls are omitted in this diagram.",
+      "abstained": false,
+      "citations": [
+        {
+          "evidence_id": 1,
+          "metadata": {
+            "type": "image",
+            "source": "architecture.png",
+            "source_path": "images/architecture.png",
+            "content_kind": "image_description",
+            "description": "The image is a diagram titled \"Local Search Architecture,\" providing a simplified view of the application and database connection.\n\nIt consists of three main components arranged horizontally with arrows indicating the flow of requests:\n\n1. **User** (left box, light blue):\n   - Described as \"Browser or API client.\"\n   - Sends an HTTP request to the next component.\n\n2. **FastAPI** (middle box, light green):\n   - Described as \"HTTP API on Windows Port 8000.\"\n   - Receives the HTTP request from the User.\n   - Sends a search request to the next component.\n\n3. **Qdrant** (right box, light purple):\n   - Described as \"Vector database in Docker Port 6333.\"\n   - Receives the search request from FastAPI.\n\nBelow the diagram, a note explains the process: The user sends a question to FastAPI, which searches Qdrant and returns results. Qdrant stores embeddings, source text, and metadata. Model API calls are omitted in this diagram.\n\nAt the bottom left, there is a small label: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"",
+            "description_model": "gpt-4.1-mini",
+            "image_sha256": "e0e7bb1abda61ada2d3f21d4c955889ab1f10e9c7cd4f355f62c793db245fa29",
+            "description_cache_key": "8da48c2e7c020e773bde7c6ee99611ad3703840125f5b2be3a20d7f28bac2ea6",
+            "review_status": "manually_verified",
+            "review_method": "User compared description with source image",
+            "reviewed_description_sha256": "071a3472a0a91886c214afb6362db8b00b4da9fd47ec3f8345fd1249011eb51c",
+            "chunk_strategy": "complete_image_description",
+            "source_chunk_index": 0,
+            "chunk_id": "696516e0-70d4-507b-a1ab-214c31740080",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "696516e0-70d4-507b-a1ab-214c31740080",
+            "_collection_name": "multi_format_documents"
+          }
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "score": 0.7852074,
+          "page_content": "The image is a diagram titled \"Local Search Architecture,\" providing a simplified view of the application and database connection.\n\nIt consists of three main components arranged horizontally with arrows indicating the flow of requests:\n\n1. **User** (left box, light blue):\n   - Described as \"Browser or API client.\"\n   - Sends an HTTP request to the next component.\n\n2. **FastAPI** (middle box, light green):\n   - Described as \"HTTP API on Windows Port 8000.\"\n   - Receives the HTTP request from the User.\n   - Sends a search request to the next component.\n\n3. **Qdrant** (right box, light purple):\n   - Described as \"Vector database in Docker Port 6333.\"\n   - Receives the search request from FastAPI.\n\nBelow the diagram, a note explains the process: The user sends a question to FastAPI, which searches Qdrant and returns results. Qdrant stores embeddings, source text, and metadata. Model API calls are omitted in this diagram.\n\nAt the bottom left, there is a small label: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"",
+          "metadata": {
+            "type": "image",
+            "source": "architecture.png",
+            "source_path": "images/architecture.png",
+            "content_kind": "image_description",
+            "description": "The image is a diagram titled \"Local Search Architecture,\" providing a simplified view of the application and database connection.\n\nIt consists of three main components arranged horizontally with arrows indicating the flow of requests:\n\n1. **User** (left box, light blue):\n   - Described as \"Browser or API client.\"\n   - Sends an HTTP request to the next component.\n\n2. **FastAPI** (middle box, light green):\n   - Described as \"HTTP API on Windows Port 8000.\"\n   - Receives the HTTP request from the User.\n   - Sends a search request to the next component.\n\n3. **Qdrant** (right box, light purple):\n   - Described as \"Vector database in Docker Port 6333.\"\n   - Receives the search request from FastAPI.\n\nBelow the diagram, a note explains the process: The user sends a question to FastAPI, which searches Qdrant and returns results. Qdrant stores embeddings, source text, and metadata. Model API calls are omitted in this diagram.\n\nAt the bottom left, there is a small label: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"",
+            "description_model": "gpt-4.1-mini",
+            "image_sha256": "e0e7bb1abda61ada2d3f21d4c955889ab1f10e9c7cd4f355f62c793db245fa29",
+            "description_cache_key": "8da48c2e7c020e773bde7c6ee99611ad3703840125f5b2be3a20d7f28bac2ea6",
+            "review_status": "manually_verified",
+            "review_method": "User compared description with source image",
+            "reviewed_description_sha256": "071a3472a0a91886c214afb6362db8b00b4da9fd47ec3f8345fd1249011eb51c",
+            "chunk_strategy": "complete_image_description",
+            "source_chunk_index": 0,
+            "chunk_id": "696516e0-70d4-507b-a1ab-214c31740080",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "696516e0-70d4-507b-a1ab-214c31740080",
+            "_collection_name": "multi_format_documents"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "expected": "Seller; citation to the return shipping section.",
+    "result": {
+      "question": "Who pays return shipping for a defective product?",
+      "method": "retrieval",
+      "answer": "The seller pays for return shipping if the product is defective.",
+      "abstained": false,
+      "citations": [
+        {
+          "evidence_id": 1,
+          "metadata": {
+            "type": "html",
+            "source": "returns_policy.html",
+            "source_path": "other/returns_policy.html",
+            "content_kind": "section",
+            "extraction_method": "beautifulsoup_table_aware",
+            "title": "Product Returns Policy",
+            "table_count": 1,
+            "heading_1": "Product Returns Policy",
+            "heading_2": "Return Shipping",
+            "section": "Product Returns Policy > Return Shipping",
+            "chunk_strategy": "headings_then_characters",
+            "source_chunk_index": 3,
+            "chunk_id": "f16a0b48-8046-5bd3-84db-493649550d5b",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "f16a0b48-8046-5bd3-84db-493649550d5b",
+            "_collection_name": "multi_format_documents"
+          }
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "score": 0.8239032,
+          "page_content": "Product Returns Policy > Return Shipping\nReason: Defective product; Shipping Paid By: Seller.\nReason: Customer changed their mind; Shipping Paid By: Customer.",
+          "metadata": {
+            "type": "html",
+            "source": "returns_policy.html",
+            "source_path": "other/returns_policy.html",
+            "content_kind": "section",
+            "extraction_method": "beautifulsoup_table_aware",
+            "title": "Product Returns Policy",
+            "table_count": 1,
+            "heading_1": "Product Returns Policy",
+            "heading_2": "Return Shipping",
+            "section": "Product Returns Policy > Return Shipping",
+            "chunk_strategy": "headings_then_characters",
+            "source_chunk_index": 3,
+            "chunk_id": "f16a0b48-8046-5bd3-84db-493649550d5b",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "f16a0b48-8046-5bd3-84db-493649550d5b",
+            "_collection_name": "multi_format_documents"
+          }
+        },
+        {
+          "rank": 2,
+          "score": 0.6867387,
+          "page_content": "Product Returns Policy > Return Window\nProducts may be returned within 14 days of delivery.",
+          "metadata": {
+            "type": "html",
+            "source": "returns_policy.html",
+            "source_path": "other/returns_policy.html",
+            "content_kind": "section",
+            "extraction_method": "beautifulsoup_table_aware",
+            "title": "Product Returns Policy",
+            "table_count": 1,
+            "heading_1": "Product Returns Policy",
+            "heading_2": "Return Window",
+            "section": "Product Returns Policy > Return Window",
+            "chunk_strategy": "headings_then_characters",
+            "source_chunk_index": 0,
+            "chunk_id": "0c96871a-abe1-55ad-85b3-774c6acab94b",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "0c96871a-abe1-55ad-85b3-774c6acab94b",
+            "_collection_name": "multi_format_documents"
+          }
+        },
+        {
+          "rank": 3,
+          "score": 0.6860161,
+          "page_content": "Product Returns Policy > Refund Processing\nApproved refunds are processed within 7 business days\nafter the returned product passes inspection.",
+          "metadata": {
+            "type": "html",
+            "source": "returns_policy.html",
+            "source_path": "other/returns_policy.html",
+            "content_kind": "section",
+            "extraction_method": "beautifulsoup_table_aware",
+            "title": "Product Returns Policy",
+            "table_count": 1,
+            "heading_1": "Product Returns Policy",
+            "heading_2": "Refund Processing",
+            "section": "Product Returns Policy > Refund Processing",
+            "chunk_strategy": "headings_then_characters",
+            "source_chunk_index": 2,
+            "chunk_id": "a2ff0d85-6a1b-50d8-9579-3fa12808528e",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "a2ff0d85-6a1b-50d8-9579-3fa12808528e",
+            "_collection_name": "multi_format_documents"
+          }
+        },
+        {
+          "rank": 4,
+          "score": 0.66783625,
+          "page_content": "Product Returns Policy > Return Conditions\nCustomers must provide the purchase invoice.\nProducts must include their original accessories.",
+          "metadata": {
+            "type": "html",
+            "source": "returns_policy.html",
+            "source_path": "other/returns_policy.html",
+            "content_kind": "section",
+            "extraction_method": "beautifulsoup_table_aware",
+            "title": "Product Returns Policy",
+            "table_count": 1,
+            "heading_1": "Product Returns Policy",
+            "heading_2": "Return Conditions",
+            "section": "Product Returns Policy > Return Conditions",
+            "chunk_strategy": "headings_then_characters",
+            "source_chunk_index": 1,
+            "chunk_id": "8e226d2a-668f-5f10-a773-75eeae29c022",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "8e226d2a-668f-5f10-a773-75eeae29c022",
+            "_collection_name": "multi_format_documents"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "expected": "Abstain: the dataset does not provide this information.",
+    "result": {
+      "question": "What is the CEO's personal phone number?",
+      "method": "retrieval",
+      "answer": "The retrieved information is insufficient to answer this question.",
+      "abstained": true,
+      "citations": [],
+      "retrieved": [
+        {
+          "rank": 1,
+          "score": 0.6171005,
+          "page_content": "Customer Support Policy > Supported Channels\nCustomers can contact support through email and the support portal.",
+          "metadata": {
+            "type": "markdown",
+            "source": "support_policy.md",
+            "source_path": "other/support_policy.md",
+            "content_kind": "section",
+            "extraction_method": "text_loader",
+            "heading_1": "Customer Support Policy",
+            "heading_2": "Supported Channels",
+            "section": "Customer Support Policy > Supported Channels",
+            "chunk_strategy": "headings_then_characters",
+            "source_chunk_index": 3,
+            "chunk_id": "a5b3378b-6190-524b-b07b-220b239aec10",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "a5b3378b-6190-524b-b07b-220b239aec10",
+            "_collection_name": "multi_format_documents"
+          }
+        },
+        {
+          "rank": 2,
+          "score": 0.5890571,
+          "page_content": "Product Headset Voice belongs to Accessories.\nProduct ID is P007.\nPrice is 3200 INR.\nSales are 390 units.\nRating is 4.4 out of 5.",
+          "metadata": {
+            "type": "csv",
+            "source": "products.csv",
+            "source_path": "excel/products.csv",
+            "content_kind": "table_row",
+            "row": 8,
+            "row_data": {
+              "Product_ID": "P007",
+              "Product": "Headset Voice",
+              "Category": "Accessories",
+              "Price_INR": 3200.0,
+              "Sales_Units": 390,
+              "Rating": 4.4
+            },
+            "chunk_strategy": "complete_product_row",
+            "source_chunk_index": 6,
+            "chunk_id": "410d6a87-94af-5c72-8ba7-4893a6baca6b",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "410d6a87-94af-5c72-8ba7-4893a6baca6b",
+            "_collection_name": "multi_format_documents"
+          }
+        },
+        {
+          "rank": 3,
+          "score": 0.5737538,
+          "page_content": "Customer Support Policy > Escalation\nUnresolved critical issues are escalated to the support manager after 2 hours.",
+          "metadata": {
+            "type": "markdown",
+            "source": "support_policy.md",
+            "source_path": "other/support_policy.md",
+            "content_kind": "section",
+            "extraction_method": "text_loader",
+            "heading_1": "Customer Support Policy",
+            "heading_2": "Escalation",
+            "section": "Customer Support Policy > Escalation",
+            "chunk_strategy": "headings_then_characters",
+            "source_chunk_index": 2,
+            "chunk_id": "e1d2f0c6-4978-5f21-9625-e4a8237ecd70",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "e1d2f0c6-4978-5f21-9625-e4a8237ecd70",
+            "_collection_name": "multi_format_documents"
+          }
+        },
+        {
+          "rank": 4,
+          "score": 0.5729893,
+          "page_content": "Product Whiteboard Team belongs to Stationery.\nProduct ID is P028.\nPrice is 3500 INR.\nSales are 155 units.\nRating is 4.6 out of 5.",
+          "metadata": {
+            "type": "csv",
+            "source": "products.csv",
+            "source_path": "excel/products.csv",
+            "content_kind": "table_row",
+            "row": 29,
+            "row_data": {
+              "Product_ID": "P028",
+              "Product": "Whiteboard Team",
+              "Category": "Stationery",
+              "Price_INR": 3500.0,
+              "Sales_Units": 155,
+              "Rating": 4.6
+            },
+            "chunk_strategy": "complete_product_row",
+            "source_chunk_index": 27,
+            "chunk_id": "ed822703-7451-578a-9c81-f1f784dc7046",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "ed822703-7451-578a-9c81-f1f784dc7046",
+            "_collection_name": "multi_format_documents"
+          }
+        },
+        {
+          "rank": 5,
+          "score": 0.5725277,
+          "page_content": "Product Charger Fast belongs to Accessories.\nProduct ID is P024.\nPrice is 1600 INR.\nSales are 760 units.\nRating is 4.5 out of 5.",
+          "metadata": {
+            "type": "csv",
+            "source": "products.csv",
+            "source_path": "excel/products.csv",
+            "content_kind": "table_row",
+            "row": 25,
+            "row_data": {
+              "Product_ID": "P024",
+              "Product": "Charger Fast",
+              "Category": "Accessories",
+              "Price_INR": 1600.0,
+              "Sales_Units": 760,
+              "Rating": 4.5
+            },
+            "chunk_strategy": "complete_product_row",
+            "source_chunk_index": 23,
+            "chunk_id": "09069bc4-93d9-5dc6-8393-8e175c3ca6bd",
+            "embedding_model": "gemini-embedding-2",
+            "embedding_dimensions": 3072,
+            "_id": "09069bc4-93d9-5dc6-8393-8e175c3ca6bd",
+            "_collection_name": "multi_format_documents"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "expected": "Abstain: no matching page was retrieved.",
+    "result": {
+      "question": "What information is on page 7 of the report?",
+      "method": "retrieval",
+      "answer": "The retrieved information is insufficient to answer this question.",
+      "abstained": true,
+      "citations": [],
+      "retrieved": []
+    }
+  },
+  {
+    "field": "Sales_Units",
+    "result": {
+      "method": "exact_calculation",
+      "answer": "Across 30 stored product rows, the highest sales is 1500 units. Product(s): Pen Smooth.",
+      "abstained": false,
+      "citations": [
+        {
+          "source": "products.csv",
+          "source_path": "excel/products.csv",
+          "row": 28,
+          "product_id": "P027"
+        }
+      ],
+      "calculation": {
+        "operation": "maximum",
+        "field": "Sales_Units",
+        "rows_checked": 30,
+        "maximum": 1500,
+        "winners": [
+          {
+            "product": "Pen Smooth",
+            "product_id": "P027",
+            "value": 1500,
+            "source": "products.csv",
+            "source_path": "excel/products.csv",
+            "row": 28
+          }
+        ]
+      }
+    }
+  },
+  {
+    "field": "Rating",
+    "result": {
+      "method": "exact_calculation",
+      "answer": "Across 30 stored product rows, the highest rating is 4.9 out of 5. Product(s): Chair Comfort.",
+      "abstained": false,
+      "citations": [
+        {
+          "source": "products.csv",
+          "source_path": "excel/products.csv",
+          "row": 18,
+          "product_id": "P017"
+        }
+      ],
+      "calculation": {
+        "operation": "maximum",
+        "field": "Rating",
+        "rows_checked": 30,
+        "maximum": 4.9,
+        "winners": [
+          {
+            "product": "Chair Comfort",
+            "product_id": "P017",
+            "value": 4.9,
+            "source": "products.csv",
+            "source_path": "excel/products.csv",
+            "row": 18
+          }
+        ]
+      }
+    }
+  }
+]

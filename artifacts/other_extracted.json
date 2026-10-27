@@ -1,0 +1,24 @@
+[
+  {
+    "page_content": "# Customer Support Policy\n\n## Support Hours\n\nCustomer support is available Monday to Friday, from 9 AM to 6 PM IST.\n\n## Priority Levels\n\nCritical issues have a target first-response time of 30 minutes.\n\nStandard issues have a target first-response time of 4 business hours.\n\n## Escalation\n\nUnresolved critical issues are escalated to the support manager after 2 hours.\n\n## Supported Channels\n\nCustomers can contact support through email and the support portal.",
+    "metadata": {
+      "type": "markdown",
+      "source": "support_policy.md",
+      "source_path": "other/support_policy.md",
+      "content_kind": "document",
+      "extraction_method": "text_loader"
+    }
+  },
+  {
+    "page_content": "# Product Returns Policy\n## Return Window\nProducts may be returned within 14 days of delivery.\n## Return Conditions\nCustomers must provide the purchase invoice.\n        Products must include their original accessories.\n## Refund Processing\nApproved refunds are processed within 7 business days\n        after the returned product passes inspection.\n## Return Shipping\nReason: Defective product; Shipping Paid By: Seller.\nReason: Customer changed their mind; Shipping Paid By: Customer.",
+    "metadata": {
+      "type": "html",
+      "source": "returns_policy.html",
+      "source_path": "other/returns_policy.html",
+      "content_kind": "document",
+      "extraction_method": "beautifulsoup_table_aware",
+      "title": "Product Returns Policy",
+      "table_count": 1
+    }
+  }
+]

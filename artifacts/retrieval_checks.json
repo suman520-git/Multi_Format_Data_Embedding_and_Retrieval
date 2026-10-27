@@ -1,0 +1,914 @@
+[
+  {
+    "query": "How many support tickets were resolved during the quarter?",
+    "expected_type": "pdf",
+    "expected_type_found": true,
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.7401768,
+        "page_content": "Quarterly Operations Report\nApril to June 2026\nExecutive Summary\nThis fictional report covers April to June 2026. The support team resolved 420\ntickets. Average first-response time was 2 hours.\nFictional sample data | April to June 2026\nPage 1 of 3",
+        "metadata": {
+          "type": "pdf",
+          "source": "operations_report.pdf",
+          "source_path": "pdf/operations_report.pdf",
+          "page": 1,
+          "content_kind": "text",
+          "extraction_method": "pymupdf_markdown_tables",
+          "chunk_strategy": "recursive_characters",
+          "chunk_index": 0,
+          "source_chunk_index": 0,
+          "chunk_id": "65bb5ed5-2c10-5842-aded-bfe5429c692c",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "65bb5ed5-2c10-5842-aded-bfe5429c692c",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.66152656,
+        "page_content": "Department Training\nDepartment: Support; Employees: 10; Training Hours: 80.",
+        "metadata": {
+          "type": "pdf",
+          "source": "operations_report.pdf",
+          "source_path": "pdf/operations_report.pdf",
+          "page": 2,
+          "content_kind": "table_row",
+          "extraction_method": "pymupdf_markdown_tables",
+          "chunk_strategy": "complete_table_row",
+          "section": "Department Training",
+          "table_index": 1,
+          "table_row": 4,
+          "row_data": {
+            "Department": "Support",
+            "Employees": "10",
+            "Training Hours": "80"
+          },
+          "chunk_index": 3,
+          "source_chunk_index": 4,
+          "chunk_id": "8d269641-79a8-5d3a-a399-9a7cb46d4978",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "8d269641-79a8-5d3a-a399-9a7cb46d4978",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.63759315,
+        "page_content": "Customer Support Policy > Priority Levels\nCritical issues have a target first-response time of 30 minutes.  \nStandard issues have a target first-response time of 4 business hours.",
+        "metadata": {
+          "type": "markdown",
+          "source": "support_policy.md",
+          "source_path": "other/support_policy.md",
+          "content_kind": "section",
+          "extraction_method": "text_loader",
+          "heading_1": "Customer Support Policy",
+          "heading_2": "Priority Levels",
+          "section": "Customer Support Policy > Priority Levels",
+          "chunk_strategy": "headings_then_characters",
+          "source_chunk_index": 1,
+          "chunk_id": "8a98d47e-8757-577b-933d-b82d015a5d50",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "8a98d47e-8757-577b-933d-b82d015a5d50",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 4,
+        "score": 0.6364341,
+        "page_content": "Customer Support Policy > Supported Channels\nCustomers can contact support through email and the support portal.",
+        "metadata": {
+          "type": "markdown",
+          "source": "support_policy.md",
+          "source_path": "other/support_policy.md",
+          "content_kind": "section",
+          "extraction_method": "text_loader",
+          "heading_1": "Customer Support Policy",
+          "heading_2": "Supported Channels",
+          "section": "Customer Support Policy > Supported Channels",
+          "chunk_strategy": "headings_then_characters",
+          "source_chunk_index": 3,
+          "chunk_id": "a5b3378b-6190-524b-b07b-220b239aec10",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "a5b3378b-6190-524b-b07b-220b239aec10",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.6321354,
+        "page_content": "Storage and Recovery\nDatabase backups are scheduled daily at 11 PM IST. Backups are retained for 30\ndays. A recovery exercise is performed once every quarter.\nFictional sample data | April to June 2026\nPage 3 of 3",
+        "metadata": {
+          "type": "pdf",
+          "source": "operations_report.pdf",
+          "source_path": "pdf/operations_report.pdf",
+          "page": 3,
+          "content_kind": "text",
+          "extraction_method": "pymupdf_markdown_tables",
+          "chunk_strategy": "recursive_characters",
+          "chunk_index": 0,
+          "source_chunk_index": 5,
+          "chunk_id": "509d1470-6d7a-5598-96e0-6c0858e80882",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "509d1470-6d7a-5598-96e0-6c0858e80882",
+          "_collection_name": "multi_format_documents"
+        }
+      }
+    ]
+  },
+  {
+    "query": "What should I start before running docker compose up -d?",
+    "expected_type": "word",
+    "expected_type_found": true,
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.7624032,
+        "page_content": "Starting the Application\nStart Docker Desktop before starting Qdrant. Run docker compose up -d from the project root. After Qdrant is available, start the FastAPI application.",
+        "metadata": {
+          "type": "word",
+          "source": "deployment_guide.docx",
+          "source_path": "word/deployment_guide.docx",
+          "section": "Starting the Application",
+          "content_kind": "text",
+          "element_index": 6,
+          "element_category": "NarrativeText",
+          "chunk_strategy": "paragraph_with_section",
+          "source_chunk_index": 2,
+          "chunk_id": "88f53127-1dfa-54a6-904d-2c6f090fc0bb",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "88f53127-1dfa-54a6-904d-2c6f090fc0bb",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.66425693,
+        "page_content": "Service Reference\nService: FastAPI; Location: Windows host; Port: 8000.\nService: Qdrant; Location: Docker container; Port: 6333.",
+        "metadata": {
+          "type": "word",
+          "source": "deployment_guide.docx",
+          "source_path": "word/deployment_guide.docx",
+          "section": "Service Reference",
+          "content_kind": "table",
+          "element_index": 12,
+          "element_category": "Table",
+          "table_rows": [
+            [
+              "Service",
+              "Location",
+              "Port"
+            ],
+            [
+              "FastAPI",
+              "Windows host",
+              "8000"
+            ],
+            [
+              "Qdrant",
+              "Docker container",
+              "6333"
+            ]
+          ],
+          "chunk_strategy": "complete_table",
+          "source_chunk_index": 5,
+          "chunk_id": "7f56e5f6-7685-530e-856f-7d8d9bc8727f",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "7f56e5f6-7685-530e-856f-7d8d9bc8727f",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.6457449,
+        "page_content": "Local Development\nThe application API runs directly on the developer’s Windows computer. FastAPI serves HTTP requests on port 8000. Qdrant runs in Docker and is accessible through local port 6333.",
+        "metadata": {
+          "type": "word",
+          "source": "deployment_guide.docx",
+          "source_path": "word/deployment_guide.docx",
+          "section": "Local Development",
+          "content_kind": "text",
+          "element_index": 4,
+          "element_category": "NarrativeText",
+          "chunk_strategy": "paragraph_with_section",
+          "source_chunk_index": 1,
+          "chunk_id": "82836858-4ec0-529f-82e9-5b86f50a5cca",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "82836858-4ec0-529f-82e9-5b86f50a5cca",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 4,
+        "score": 0.61811554,
+        "page_content": "Persistent Storage\nQdrant stores its database files in a Docker named volume. Recreating the container with the same volume preserves the database files. The volume is not a backup.",
+        "metadata": {
+          "type": "word",
+          "source": "deployment_guide.docx",
+          "source_path": "word/deployment_guide.docx",
+          "section": "Persistent Storage",
+          "content_kind": "text",
+          "element_index": 8,
+          "element_category": "NarrativeText",
+          "chunk_strategy": "paragraph_with_section",
+          "source_chunk_index": 3,
+          "chunk_id": "29866305-9f3e-5ca4-8b13-faf5c8791f34",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "29866305-9f3e-5ca4-8b13-faf5c8791f34",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.6004168,
+        "page_content": "Troubleshooting\nIf the API cannot reach Qdrant, first check the container status and the configured QDRANT_URL. If an external model request fails, inspect the provider’s error message before changing application code.",
+        "metadata": {
+          "type": "word",
+          "source": "deployment_guide.docx",
+          "source_path": "word/deployment_guide.docx",
+          "section": "Troubleshooting",
+          "content_kind": "text",
+          "element_index": 10,
+          "element_category": "NarrativeText",
+          "chunk_strategy": "paragraph_with_section",
+          "source_chunk_index": 4,
+          "chunk_id": "74a1a4ae-5231-5355-bf4e-d9f04d217a31",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "74a1a4ae-5231-5355-bf4e-d9f04d217a31",
+          "_collection_name": "multi_format_documents"
+        }
+      }
+    ]
+  },
+  {
+    "query": "What are the price, sales, and rating of Laptop Alpha?",
+    "expected_type": "csv",
+    "expected_type_found": true,
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.8251639,
+        "page_content": "Product Laptop Alpha belongs to Electronics.\nProduct ID is P001.\nPrice is 75000 INR.\nSales are 230 units.\nRating is 4.5 out of 5.",
+        "metadata": {
+          "type": "csv",
+          "source": "products.csv",
+          "source_path": "excel/products.csv",
+          "content_kind": "table_row",
+          "row": 2,
+          "row_data": {
+            "Product_ID": "P001",
+            "Product": "Laptop Alpha",
+            "Category": "Electronics",
+            "Price_INR": 75000.0,
+            "Sales_Units": 230,
+            "Rating": 4.5
+          },
+          "chunk_strategy": "complete_product_row",
+          "source_chunk_index": 0,
+          "chunk_id": "6015e576-cb78-5af2-bdd7-c5864abf02b3",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "6015e576-cb78-5af2-bdd7-c5864abf02b3",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.7652174,
+        "page_content": "Product Laptop Beta belongs to Electronics.\nProduct ID is P002.\nPrice is 62000 INR.\nSales are 190 units.\nRating is 4.3 out of 5.",
+        "metadata": {
+          "type": "csv",
+          "source": "products.csv",
+          "source_path": "excel/products.csv",
+          "content_kind": "table_row",
+          "row": 3,
+          "row_data": {
+            "Product_ID": "P002",
+            "Product": "Laptop Beta",
+            "Category": "Electronics",
+            "Price_INR": 62000.0,
+            "Sales_Units": 190,
+            "Rating": 4.3
+          },
+          "chunk_strategy": "complete_product_row",
+          "source_chunk_index": 1,
+          "chunk_id": "b4b41e66-1cf8-5326-8919-3bb06a3dd268",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "b4b41e66-1cf8-5326-8919-3bb06a3dd268",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.7266332,
+        "page_content": "Product Laptop Stand Lift belongs to Accessories.\nProduct ID is P019.\nPrice is 2200 INR.\nSales are 360 units.\nRating is 4.6 out of 5.",
+        "metadata": {
+          "type": "csv",
+          "source": "products.csv",
+          "source_path": "excel/products.csv",
+          "content_kind": "table_row",
+          "row": 20,
+          "row_data": {
+            "Product_ID": "P019",
+            "Product": "Laptop Stand Lift",
+            "Category": "Accessories",
+            "Price_INR": 2200.0,
+            "Sales_Units": 360,
+            "Rating": 4.6
+          },
+          "chunk_strategy": "complete_product_row",
+          "source_chunk_index": 18,
+          "chunk_id": "f9a33af2-c860-5bb8-8f07-633a68503ab0",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "f9a33af2-c860-5bb8-8f07-633a68503ab0",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 4,
+        "score": 0.69671726,
+        "page_content": "Product Notebook Classic belongs to Stationery.\nProduct ID is P026.\nPrice is 120 INR.\nSales are 1100 units.\nRating is 4.2 out of 5.",
+        "metadata": {
+          "type": "csv",
+          "source": "products.csv",
+          "source_path": "excel/products.csv",
+          "content_kind": "table_row",
+          "row": 27,
+          "row_data": {
+            "Product_ID": "P026",
+            "Product": "Notebook Classic",
+            "Category": "Stationery",
+            "Price_INR": 120.0,
+            "Sales_Units": 1100,
+            "Rating": 4.2
+          },
+          "chunk_strategy": "complete_product_row",
+          "source_chunk_index": 25,
+          "chunk_id": "de0526d8-6b7e-5a4a-a7ec-ac6412fab735",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "de0526d8-6b7e-5a4a-a7ec-ac6412fab735",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.69462067,
+        "page_content": "Product SSD Rapid belongs to Storage.\nProduct ID is P012.\nPrice is 6500 INR.\nSales are 540 units.\nRating is 4.8 out of 5.",
+        "metadata": {
+          "type": "csv",
+          "source": "products.csv",
+          "source_path": "excel/products.csv",
+          "content_kind": "table_row",
+          "row": 13,
+          "row_data": {
+            "Product_ID": "P012",
+            "Product": "SSD Rapid",
+            "Category": "Storage",
+            "Price_INR": 6500.0,
+            "Sales_Units": 540,
+            "Rating": 4.8
+          },
+          "chunk_strategy": "complete_product_row",
+          "source_chunk_index": 11,
+          "chunk_id": "f8cff37f-2a2c-51a5-a6c2-8f0a4645d738",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "f8cff37f-2a2c-51a5-a6c2-8f0a4645d738",
+          "_collection_name": "multi_format_documents"
+        }
+      }
+    ]
+  },
+  {
+    "query": "What does the Local Search Architecture diagram show?",
+    "expected_type": "image",
+    "expected_type_found": true,
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.7852074,
+        "page_content": "The image is a diagram titled \"Local Search Architecture,\" providing a simplified view of the application and database connection.\n\nIt consists of three main components arranged horizontally with arrows indicating the flow of requests:\n\n1. **User** (left box, light blue):\n   - Described as \"Browser or API client.\"\n   - Sends an HTTP request to the next component.\n\n2. **FastAPI** (middle box, light green):\n   - Described as \"HTTP API on Windows Port 8000.\"\n   - Receives the HTTP request from the User.\n   - Sends a search request to the next component.\n\n3. **Qdrant** (right box, light purple):\n   - Described as \"Vector database in Docker Port 6333.\"\n   - Receives the search request from FastAPI.\n\nBelow the diagram, a note explains the process: The user sends a question to FastAPI, which searches Qdrant and returns results. Qdrant stores embeddings, source text, and metadata. Model API calls are omitted in this diagram.\n\nAt the bottom left, there is a small label: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"",
+        "metadata": {
+          "type": "image",
+          "source": "architecture.png",
+          "source_path": "images/architecture.png",
+          "content_kind": "image_description",
+          "description": "The image is a diagram titled \"Local Search Architecture,\" providing a simplified view of the application and database connection.\n\nIt consists of three main components arranged horizontally with arrows indicating the flow of requests:\n\n1. **User** (left box, light blue):\n   - Described as \"Browser or API client.\"\n   - Sends an HTTP request to the next component.\n\n2. **FastAPI** (middle box, light green):\n   - Described as \"HTTP API on Windows Port 8000.\"\n   - Receives the HTTP request from the User.\n   - Sends a search request to the next component.\n\n3. **Qdrant** (right box, light purple):\n   - Described as \"Vector database in Docker Port 6333.\"\n   - Receives the search request from FastAPI.\n\nBelow the diagram, a note explains the process: The user sends a question to FastAPI, which searches Qdrant and returns results. Qdrant stores embeddings, source text, and metadata. Model API calls are omitted in this diagram.\n\nAt the bottom left, there is a small label: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"",
+          "description_model": "gpt-4.1-mini",
+          "image_sha256": "e0e7bb1abda61ada2d3f21d4c955889ab1f10e9c7cd4f355f62c793db245fa29",
+          "description_cache_key": "8da48c2e7c020e773bde7c6ee99611ad3703840125f5b2be3a20d7f28bac2ea6",
+          "review_status": "manually_verified",
+          "review_method": "User compared description with source image",
+          "reviewed_description_sha256": "071a3472a0a91886c214afb6362db8b00b4da9fd47ec3f8345fd1249011eb51c",
+          "chunk_strategy": "complete_image_description",
+          "source_chunk_index": 0,
+          "chunk_id": "696516e0-70d4-507b-a1ab-214c31740080",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "696516e0-70d4-507b-a1ab-214c31740080",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.64475137,
+        "page_content": "Local Development\nThe application API runs directly on the developer’s Windows computer. FastAPI serves HTTP requests on port 8000. Qdrant runs in Docker and is accessible through local port 6333.",
+        "metadata": {
+          "type": "word",
+          "source": "deployment_guide.docx",
+          "source_path": "word/deployment_guide.docx",
+          "section": "Local Development",
+          "content_kind": "text",
+          "element_index": 4,
+          "element_category": "NarrativeText",
+          "chunk_strategy": "paragraph_with_section",
+          "source_chunk_index": 1,
+          "chunk_id": "82836858-4ec0-529f-82e9-5b86f50a5cca",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "82836858-4ec0-529f-82e9-5b86f50a5cca",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.6143084,
+        "page_content": "Service Reference\nService: FastAPI; Location: Windows host; Port: 8000.\nService: Qdrant; Location: Docker container; Port: 6333.",
+        "metadata": {
+          "type": "word",
+          "source": "deployment_guide.docx",
+          "source_path": "word/deployment_guide.docx",
+          "section": "Service Reference",
+          "content_kind": "table",
+          "element_index": 12,
+          "element_category": "Table",
+          "table_rows": [
+            [
+              "Service",
+              "Location",
+              "Port"
+            ],
+            [
+              "FastAPI",
+              "Windows host",
+              "8000"
+            ],
+            [
+              "Qdrant",
+              "Docker container",
+              "6333"
+            ]
+          ],
+          "chunk_strategy": "complete_table",
+          "source_chunk_index": 5,
+          "chunk_id": "7f56e5f6-7685-530e-856f-7d8d9bc8727f",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "7f56e5f6-7685-530e-856f-7d8d9bc8727f",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 4,
+        "score": 0.61281437,
+        "page_content": "Application Deployment Guide\nThis guide describes local deployment, persistent storage, and basic troubleshooting for Multi-Format Data Embedding and Retrieval.",
+        "metadata": {
+          "type": "word",
+          "source": "deployment_guide.docx",
+          "source_path": "word/deployment_guide.docx",
+          "section": "Application Deployment Guide",
+          "content_kind": "text",
+          "element_index": 2,
+          "element_category": "NarrativeText",
+          "chunk_strategy": "paragraph_with_section",
+          "source_chunk_index": 0,
+          "chunk_id": "320b576a-f575-5060-99cb-eb87318a1663",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "320b576a-f575-5060-99cb-eb87318a1663",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.5985006,
+        "page_content": "The image is a conceptual diagram titled \"Docker Application Deployment,\" illustrating the build and run workflow for Docker applications.\n\nIt consists of three main labeled boxes arranged horizontally with arrows pointing from left to right:\n\n1. **Source Code** (light blue box on the left)\n   - Description: \"Application files + Dockerfile\"\n   - Represents the initial input containing the application source code and Dockerfile.\n\n2. **Docker Image** (light green box in the center)\n   - Description: \"Packaged application + dependencies\"\n   - Represents the Docker image created by building the source code.\n   - The arrow from \"Source Code\" to \"Docker Image\" is labeled \"docker build.\"\n\n3. **Running Container** (light purple box on the right)\n   - Description: \"An instance of the image executing the application\"\n   - Represents the running container created from the Docker image.\n   - The arrow from \"Docker Image\" to \"Running Container\" is labeled \"docker run.\"\n\nBelow the diagram, there is a note explaining the process: \"Build an image from source code, then start a container from that image. This is a general example; our current FastAPI application runs directly on Windows.\"\n\nAt the bottom left, there is a small footer text: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"",
+        "metadata": {
+          "type": "image",
+          "source": "deployment_flow.png",
+          "source_path": "images/deployment_flow.png",
+          "content_kind": "image_description",
+          "description": "The image is a conceptual diagram titled \"Docker Application Deployment,\" illustrating the build and run workflow for Docker applications.\n\nIt consists of three main labeled boxes arranged horizontally with arrows pointing from left to right:\n\n1. **Source Code** (light blue box on the left)\n   - Description: \"Application files + Dockerfile\"\n   - Represents the initial input containing the application source code and Dockerfile.\n\n2. **Docker Image** (light green box in the center)\n   - Description: \"Packaged application + dependencies\"\n   - Represents the Docker image created by building the source code.\n   - The arrow from \"Source Code\" to \"Docker Image\" is labeled \"docker build.\"\n\n3. **Running Container** (light purple box on the right)\n   - Description: \"An instance of the image executing the application\"\n   - Represents the running container created from the Docker image.\n   - The arrow from \"Docker Image\" to \"Running Container\" is labeled \"docker run.\"\n\nBelow the diagram, there is a note explaining the process: \"Build an image from source code, then start a container from that image. This is a general example; our current FastAPI application runs directly on Windows.\"\n\nAt the bottom left, there is a small footer text: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"",
+          "description_model": "gpt-4.1-mini",
+          "image_sha256": "d695b3be9c9f61a00da10d6fcd503895091d661f3603bff124ad54a21e8d23cb",
+          "description_cache_key": "88313d7a8e9316cc3fbced582960f3d8e80f24f468850c4e14f4b3be170fc75f",
+          "review_status": "manually_verified",
+          "review_method": "User compared description with source image",
+          "reviewed_description_sha256": "d12a0368eb77a689665bb63fb76dc8fb536a115d06350f10df655a024addecc2",
+          "chunk_strategy": "complete_image_description",
+          "source_chunk_index": 0,
+          "chunk_id": "5f070648-8c3c-5585-8934-bc211c04056d",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "5f070648-8c3c-5585-8934-bc211c04056d",
+          "_collection_name": "multi_format_documents"
+        }
+      }
+    ]
+  },
+  {
+    "query": "What are the customer support working hours?",
+    "expected_type": "markdown",
+    "expected_type_found": true,
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.8120811,
+        "page_content": "Customer Support Policy > Support Hours\nCustomer support is available Monday to Friday, from 9 AM to 6 PM IST.",
+        "metadata": {
+          "type": "markdown",
+          "source": "support_policy.md",
+          "source_path": "other/support_policy.md",
+          "content_kind": "section",
+          "extraction_method": "text_loader",
+          "heading_1": "Customer Support Policy",
+          "heading_2": "Support Hours",
+          "section": "Customer Support Policy > Support Hours",
+          "chunk_strategy": "headings_then_characters",
+          "source_chunk_index": 0,
+          "chunk_id": "c806f42c-3ed2-5555-9513-ae0e9b2f1eb9",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "c806f42c-3ed2-5555-9513-ae0e9b2f1eb9",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.7063706,
+        "page_content": "Customer Support Policy > Supported Channels\nCustomers can contact support through email and the support portal.",
+        "metadata": {
+          "type": "markdown",
+          "source": "support_policy.md",
+          "source_path": "other/support_policy.md",
+          "content_kind": "section",
+          "extraction_method": "text_loader",
+          "heading_1": "Customer Support Policy",
+          "heading_2": "Supported Channels",
+          "section": "Customer Support Policy > Supported Channels",
+          "chunk_strategy": "headings_then_characters",
+          "source_chunk_index": 3,
+          "chunk_id": "a5b3378b-6190-524b-b07b-220b239aec10",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "a5b3378b-6190-524b-b07b-220b239aec10",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.7055234,
+        "page_content": "Customer Support Policy > Priority Levels\nCritical issues have a target first-response time of 30 minutes.  \nStandard issues have a target first-response time of 4 business hours.",
+        "metadata": {
+          "type": "markdown",
+          "source": "support_policy.md",
+          "source_path": "other/support_policy.md",
+          "content_kind": "section",
+          "extraction_method": "text_loader",
+          "heading_1": "Customer Support Policy",
+          "heading_2": "Priority Levels",
+          "section": "Customer Support Policy > Priority Levels",
+          "chunk_strategy": "headings_then_characters",
+          "source_chunk_index": 1,
+          "chunk_id": "8a98d47e-8757-577b-933d-b82d015a5d50",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "8a98d47e-8757-577b-933d-b82d015a5d50",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 4,
+        "score": 0.671597,
+        "page_content": "Customer Support Policy > Escalation\nUnresolved critical issues are escalated to the support manager after 2 hours.",
+        "metadata": {
+          "type": "markdown",
+          "source": "support_policy.md",
+          "source_path": "other/support_policy.md",
+          "content_kind": "section",
+          "extraction_method": "text_loader",
+          "heading_1": "Customer Support Policy",
+          "heading_2": "Escalation",
+          "section": "Customer Support Policy > Escalation",
+          "chunk_strategy": "headings_then_characters",
+          "source_chunk_index": 2,
+          "chunk_id": "e1d2f0c6-4978-5f21-9625-e4a8237ecd70",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "e1d2f0c6-4978-5f21-9625-e4a8237ecd70",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.6184344,
+        "page_content": "Department Training\nDepartment: Support; Employees: 10; Training Hours: 80.",
+        "metadata": {
+          "type": "pdf",
+          "source": "operations_report.pdf",
+          "source_path": "pdf/operations_report.pdf",
+          "page": 2,
+          "content_kind": "table_row",
+          "extraction_method": "pymupdf_markdown_tables",
+          "chunk_strategy": "complete_table_row",
+          "section": "Department Training",
+          "table_index": 1,
+          "table_row": 4,
+          "row_data": {
+            "Department": "Support",
+            "Employees": "10",
+            "Training Hours": "80"
+          },
+          "chunk_index": 3,
+          "source_chunk_index": 4,
+          "chunk_id": "8d269641-79a8-5d3a-a399-9a7cb46d4978",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "8d269641-79a8-5d3a-a399-9a7cb46d4978",
+          "_collection_name": "multi_format_documents"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Within how many days can a customer return a product?",
+    "expected_type": "html",
+    "expected_type_found": true,
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.80496526,
+        "page_content": "Product Returns Policy > Return Window\nProducts may be returned within 14 days of delivery.",
+        "metadata": {
+          "type": "html",
+          "source": "returns_policy.html",
+          "source_path": "other/returns_policy.html",
+          "content_kind": "section",
+          "extraction_method": "beautifulsoup_table_aware",
+          "title": "Product Returns Policy",
+          "table_count": 1,
+          "heading_1": "Product Returns Policy",
+          "heading_2": "Return Window",
+          "section": "Product Returns Policy > Return Window",
+          "chunk_strategy": "headings_then_characters",
+          "source_chunk_index": 0,
+          "chunk_id": "0c96871a-abe1-55ad-85b3-774c6acab94b",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "0c96871a-abe1-55ad-85b3-774c6acab94b",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.73652196,
+        "page_content": "Product Returns Policy > Refund Processing\nApproved refunds are processed within 7 business days\nafter the returned product passes inspection.",
+        "metadata": {
+          "type": "html",
+          "source": "returns_policy.html",
+          "source_path": "other/returns_policy.html",
+          "content_kind": "section",
+          "extraction_method": "beautifulsoup_table_aware",
+          "title": "Product Returns Policy",
+          "table_count": 1,
+          "heading_1": "Product Returns Policy",
+          "heading_2": "Refund Processing",
+          "section": "Product Returns Policy > Refund Processing",
+          "chunk_strategy": "headings_then_characters",
+          "source_chunk_index": 2,
+          "chunk_id": "a2ff0d85-6a1b-50d8-9579-3fa12808528e",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "a2ff0d85-6a1b-50d8-9579-3fa12808528e",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.6974559,
+        "page_content": "Product Returns Policy > Return Conditions\nCustomers must provide the purchase invoice.\nProducts must include their original accessories.",
+        "metadata": {
+          "type": "html",
+          "source": "returns_policy.html",
+          "source_path": "other/returns_policy.html",
+          "content_kind": "section",
+          "extraction_method": "beautifulsoup_table_aware",
+          "title": "Product Returns Policy",
+          "table_count": 1,
+          "heading_1": "Product Returns Policy",
+          "heading_2": "Return Conditions",
+          "section": "Product Returns Policy > Return Conditions",
+          "chunk_strategy": "headings_then_characters",
+          "source_chunk_index": 1,
+          "chunk_id": "8e226d2a-668f-5f10-a773-75eeae29c022",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "8e226d2a-668f-5f10-a773-75eeae29c022",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 4,
+        "score": 0.68397874,
+        "page_content": "Product Returns Policy > Return Shipping\nReason: Defective product; Shipping Paid By: Seller.\nReason: Customer changed their mind; Shipping Paid By: Customer.",
+        "metadata": {
+          "type": "html",
+          "source": "returns_policy.html",
+          "source_path": "other/returns_policy.html",
+          "content_kind": "section",
+          "extraction_method": "beautifulsoup_table_aware",
+          "title": "Product Returns Policy",
+          "table_count": 1,
+          "heading_1": "Product Returns Policy",
+          "heading_2": "Return Shipping",
+          "section": "Product Returns Policy > Return Shipping",
+          "chunk_strategy": "headings_then_characters",
+          "source_chunk_index": 3,
+          "chunk_id": "f16a0b48-8046-5bd3-84db-493649550d5b",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "f16a0b48-8046-5bd3-84db-493649550d5b",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.6437305,
+        "page_content": "Customer Support Policy > Support Hours\nCustomer support is available Monday to Friday, from 9 AM to 6 PM IST.",
+        "metadata": {
+          "type": "markdown",
+          "source": "support_policy.md",
+          "source_path": "other/support_policy.md",
+          "content_kind": "section",
+          "extraction_method": "text_loader",
+          "heading_1": "Customer Support Policy",
+          "heading_2": "Support Hours",
+          "section": "Customer Support Policy > Support Hours",
+          "chunk_strategy": "headings_then_characters",
+          "source_chunk_index": 0,
+          "chunk_id": "c806f42c-3ed2-5555-9513-ae0e9b2f1eb9",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "c806f42c-3ed2-5555-9513-ae0e9b2f1eb9",
+          "_collection_name": "multi_format_documents"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Where do FastAPI and Qdrant run, and which ports do they use?",
+    "expected_type": null,
+    "expected_type_found": null,
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.8325073,
+        "page_content": "Local Development\nThe application API runs directly on the developer’s Windows computer. FastAPI serves HTTP requests on port 8000. Qdrant runs in Docker and is accessible through local port 6333.",
+        "metadata": {
+          "type": "word",
+          "source": "deployment_guide.docx",
+          "source_path": "word/deployment_guide.docx",
+          "section": "Local Development",
+          "content_kind": "text",
+          "element_index": 4,
+          "element_category": "NarrativeText",
+          "chunk_strategy": "paragraph_with_section",
+          "source_chunk_index": 1,
+          "chunk_id": "82836858-4ec0-529f-82e9-5b86f50a5cca",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "82836858-4ec0-529f-82e9-5b86f50a5cca",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.8308895,
+        "page_content": "Service Reference\nService: FastAPI; Location: Windows host; Port: 8000.\nService: Qdrant; Location: Docker container; Port: 6333.",
+        "metadata": {
+          "type": "word",
+          "source": "deployment_guide.docx",
+          "source_path": "word/deployment_guide.docx",
+          "section": "Service Reference",
+          "content_kind": "table",
+          "element_index": 12,
+          "element_category": "Table",
+          "table_rows": [
+            [
+              "Service",
+              "Location",
+              "Port"
+            ],
+            [
+              "FastAPI",
+              "Windows host",
+              "8000"
+            ],
+            [
+              "Qdrant",
+              "Docker container",
+              "6333"
+            ]
+          ],
+          "chunk_strategy": "complete_table",
+          "source_chunk_index": 5,
+          "chunk_id": "7f56e5f6-7685-530e-856f-7d8d9bc8727f",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "7f56e5f6-7685-530e-856f-7d8d9bc8727f",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.7748891,
+        "page_content": "Starting the Application\nStart Docker Desktop before starting Qdrant. Run docker compose up -d from the project root. After Qdrant is available, start the FastAPI application.",
+        "metadata": {
+          "type": "word",
+          "source": "deployment_guide.docx",
+          "source_path": "word/deployment_guide.docx",
+          "section": "Starting the Application",
+          "content_kind": "text",
+          "element_index": 6,
+          "element_category": "NarrativeText",
+          "chunk_strategy": "paragraph_with_section",
+          "source_chunk_index": 2,
+          "chunk_id": "88f53127-1dfa-54a6-904d-2c6f090fc0bb",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "88f53127-1dfa-54a6-904d-2c6f090fc0bb",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 4,
+        "score": 0.72256064,
+        "page_content": "The image is a diagram titled \"Local Search Architecture,\" providing a simplified view of the application and database connection.\n\nIt consists of three main components arranged horizontally with arrows indicating the flow of requests:\n\n1. **User** (left box, light blue):\n   - Described as \"Browser or API client.\"\n   - Sends an HTTP request to the next component.\n\n2. **FastAPI** (middle box, light green):\n   - Described as \"HTTP API on Windows Port 8000.\"\n   - Receives the HTTP request from the User.\n   - Sends a search request to the next component.\n\n3. **Qdrant** (right box, light purple):\n   - Described as \"Vector database in Docker Port 6333.\"\n   - Receives the search request from FastAPI.\n\nBelow the diagram, a note explains the process: The user sends a question to FastAPI, which searches Qdrant and returns results. Qdrant stores embeddings, source text, and metadata. Model API calls are omitted in this diagram.\n\nAt the bottom left, there is a small label: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"",
+        "metadata": {
+          "type": "image",
+          "source": "architecture.png",
+          "source_path": "images/architecture.png",
+          "content_kind": "image_description",
+          "description": "The image is a diagram titled \"Local Search Architecture,\" providing a simplified view of the application and database connection.\n\nIt consists of three main components arranged horizontally with arrows indicating the flow of requests:\n\n1. **User** (left box, light blue):\n   - Described as \"Browser or API client.\"\n   - Sends an HTTP request to the next component.\n\n2. **FastAPI** (middle box, light green):\n   - Described as \"HTTP API on Windows Port 8000.\"\n   - Receives the HTTP request from the User.\n   - Sends a search request to the next component.\n\n3. **Qdrant** (right box, light purple):\n   - Described as \"Vector database in Docker Port 6333.\"\n   - Receives the search request from FastAPI.\n\nBelow the diagram, a note explains the process: The user sends a question to FastAPI, which searches Qdrant and returns results. Qdrant stores embeddings, source text, and metadata. Model API calls are omitted in this diagram.\n\nAt the bottom left, there is a small label: \"Educational sample • Multi-Format Data Embedding and Retrieval.\"",
+          "description_model": "gpt-4.1-mini",
+          "image_sha256": "e0e7bb1abda61ada2d3f21d4c955889ab1f10e9c7cd4f355f62c793db245fa29",
+          "description_cache_key": "8da48c2e7c020e773bde7c6ee99611ad3703840125f5b2be3a20d7f28bac2ea6",
+          "review_status": "manually_verified",
+          "review_method": "User compared description with source image",
+          "reviewed_description_sha256": "071a3472a0a91886c214afb6362db8b00b4da9fd47ec3f8345fd1249011eb51c",
+          "chunk_strategy": "complete_image_description",
+          "source_chunk_index": 0,
+          "chunk_id": "696516e0-70d4-507b-a1ab-214c31740080",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "696516e0-70d4-507b-a1ab-214c31740080",
+          "_collection_name": "multi_format_documents"
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.68766606,
+        "page_content": "Troubleshooting\nIf the API cannot reach Qdrant, first check the container status and the configured QDRANT_URL. If an external model request fails, inspect the provider’s error message before changing application code.",
+        "metadata": {
+          "type": "word",
+          "source": "deployment_guide.docx",
+          "source_path": "word/deployment_guide.docx",
+          "section": "Troubleshooting",
+          "content_kind": "text",
+          "element_index": 10,
+          "element_category": "NarrativeText",
+          "chunk_strategy": "paragraph_with_section",
+          "source_chunk_index": 4,
+          "chunk_id": "74a1a4ae-5231-5355-bf4e-d9f04d217a31",
+          "embedding_model": "gemini-embedding-2",
+          "embedding_dimensions": 3072,
+          "_id": "74a1a4ae-5231-5355-bf4e-d9f04d217a31",
+          "_collection_name": "multi_format_documents"
+        }
+      }
+    ]
+  }
+]

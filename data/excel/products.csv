@@ -1,0 +1,31 @@
+Product_ID,Product,Category,Price_INR,Sales_Units,Rating
+P001,Laptop Alpha,Electronics,75000,230,4.5
+P002,Laptop Beta,Electronics,62000,190,4.3
+P003,Monitor ClearView,Electronics,18000,310,4.6
+P004,Keyboard Swift,Accessories,2500,480,4.4
+P005,Mouse Precision,Accessories,1200,620,4.5
+P006,Webcam Focus,Accessories,4500,275,4.2
+P007,Headset Voice,Accessories,3200,390,4.4
+P008,Tablet Nova,Electronics,28000,205,4.6
+P009,Printer Office,Electronics,15500,145,4.1
+P010,Router Connect,Networking,5200,330,4.5
+P011,Switch Eight,Networking,3800,210,4.3
+P012,SSD Rapid,Storage,6500,540,4.8
+P013,HDD Archive,Storage,4800,320,4.2
+P014,USB Pocket,Storage,900,890,4.1
+P015,Memory Card Pro,Storage,1400,710,4.4
+P016,Desk Rise,Furniture,16000,120,4.7
+P017,Chair Comfort,Furniture,12500,260,4.9
+P018,Desk Lamp Glow,Furniture,1800,410,4.3
+P019,Laptop Stand Lift,Accessories,2200,360,4.6
+P020,Docking Station Hub,Accessories,8500,175,4.7
+P021,Projector Beam,Electronics,42000,85,4.5
+P022,Speaker Mini,Electronics,2900,440,4.2
+P023,Power Bank Travel,Accessories,2400,580,4.4
+P024,Charger Fast,Accessories,1600,760,4.5
+P025,Cable USB-C,Accessories,500,950,4.3
+P026,Notebook Classic,Stationery,120,1100,4.2
+P027,Pen Smooth,Stationery,40,1500,4.4
+P028,Whiteboard Team,Stationery,3500,155,4.6
+P029,Backpack Work,Accessories,2800,295,4.7
+P030,UPS Shield,Electronics,7200,185,4.5

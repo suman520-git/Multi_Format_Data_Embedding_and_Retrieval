@@ -1,0 +1,542 @@
+[
+  {
+    "page_content": "Product Laptop Alpha belongs to Electronics.\nProduct ID is P001.\nPrice is 75000 INR.\nSales are 230 units.\nRating is 4.5 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 2,
+      "row_data": {
+        "Product_ID": "P001",
+        "Product": "Laptop Alpha",
+        "Category": "Electronics",
+        "Price_INR": 75000.0,
+        "Sales_Units": 230,
+        "Rating": 4.5
+      }
+    }
+  },
+  {
+    "page_content": "Product Laptop Beta belongs to Electronics.\nProduct ID is P002.\nPrice is 62000 INR.\nSales are 190 units.\nRating is 4.3 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 3,
+      "row_data": {
+        "Product_ID": "P002",
+        "Product": "Laptop Beta",
+        "Category": "Electronics",
+        "Price_INR": 62000.0,
+        "Sales_Units": 190,
+        "Rating": 4.3
+      }
+    }
+  },
+  {
+    "page_content": "Product Monitor ClearView belongs to Electronics.\nProduct ID is P003.\nPrice is 18000 INR.\nSales are 310 units.\nRating is 4.6 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 4,
+      "row_data": {
+        "Product_ID": "P003",
+        "Product": "Monitor ClearView",
+        "Category": "Electronics",
+        "Price_INR": 18000.0,
+        "Sales_Units": 310,
+        "Rating": 4.6
+      }
+    }
+  },
+  {
+    "page_content": "Product Keyboard Swift belongs to Accessories.\nProduct ID is P004.\nPrice is 2500 INR.\nSales are 480 units.\nRating is 4.4 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 5,
+      "row_data": {
+        "Product_ID": "P004",
+        "Product": "Keyboard Swift",
+        "Category": "Accessories",
+        "Price_INR": 2500.0,
+        "Sales_Units": 480,
+        "Rating": 4.4
+      }
+    }
+  },
+  {
+    "page_content": "Product Mouse Precision belongs to Accessories.\nProduct ID is P005.\nPrice is 1200 INR.\nSales are 620 units.\nRating is 4.5 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 6,
+      "row_data": {
+        "Product_ID": "P005",
+        "Product": "Mouse Precision",
+        "Category": "Accessories",
+        "Price_INR": 1200.0,
+        "Sales_Units": 620,
+        "Rating": 4.5
+      }
+    }
+  },
+  {
+    "page_content": "Product Webcam Focus belongs to Accessories.\nProduct ID is P006.\nPrice is 4500 INR.\nSales are 275 units.\nRating is 4.2 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 7,
+      "row_data": {
+        "Product_ID": "P006",
+        "Product": "Webcam Focus",
+        "Category": "Accessories",
+        "Price_INR": 4500.0,
+        "Sales_Units": 275,
+        "Rating": 4.2
+      }
+    }
+  },
+  {
+    "page_content": "Product Headset Voice belongs to Accessories.\nProduct ID is P007.\nPrice is 3200 INR.\nSales are 390 units.\nRating is 4.4 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 8,
+      "row_data": {
+        "Product_ID": "P007",
+        "Product": "Headset Voice",
+        "Category": "Accessories",
+        "Price_INR": 3200.0,
+        "Sales_Units": 390,
+        "Rating": 4.4
+      }
+    }
+  },
+  {
+    "page_content": "Product Tablet Nova belongs to Electronics.\nProduct ID is P008.\nPrice is 28000 INR.\nSales are 205 units.\nRating is 4.6 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 9,
+      "row_data": {
+        "Product_ID": "P008",
+        "Product": "Tablet Nova",
+        "Category": "Electronics",
+        "Price_INR": 28000.0,
+        "Sales_Units": 205,
+        "Rating": 4.6
+      }
+    }
+  },
+  {
+    "page_content": "Product Printer Office belongs to Electronics.\nProduct ID is P009.\nPrice is 15500 INR.\nSales are 145 units.\nRating is 4.1 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 10,
+      "row_data": {
+        "Product_ID": "P009",
+        "Product": "Printer Office",
+        "Category": "Electronics",
+        "Price_INR": 15500.0,
+        "Sales_Units": 145,
+        "Rating": 4.1
+      }
+    }
+  },
+  {
+    "page_content": "Product Router Connect belongs to Networking.\nProduct ID is P010.\nPrice is 5200 INR.\nSales are 330 units.\nRating is 4.5 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 11,
+      "row_data": {
+        "Product_ID": "P010",
+        "Product": "Router Connect",
+        "Category": "Networking",
+        "Price_INR": 5200.0,
+        "Sales_Units": 330,
+        "Rating": 4.5
+      }
+    }
+  },
+  {
+    "page_content": "Product Switch Eight belongs to Networking.\nProduct ID is P011.\nPrice is 3800 INR.\nSales are 210 units.\nRating is 4.3 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 12,
+      "row_data": {
+        "Product_ID": "P011",
+        "Product": "Switch Eight",
+        "Category": "Networking",
+        "Price_INR": 3800.0,
+        "Sales_Units": 210,
+        "Rating": 4.3
+      }
+    }
+  },
+  {
+    "page_content": "Product SSD Rapid belongs to Storage.\nProduct ID is P012.\nPrice is 6500 INR.\nSales are 540 units.\nRating is 4.8 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 13,
+      "row_data": {
+        "Product_ID": "P012",
+        "Product": "SSD Rapid",
+        "Category": "Storage",
+        "Price_INR": 6500.0,
+        "Sales_Units": 540,
+        "Rating": 4.8
+      }
+    }
+  },
+  {
+    "page_content": "Product HDD Archive belongs to Storage.\nProduct ID is P013.\nPrice is 4800 INR.\nSales are 320 units.\nRating is 4.2 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 14,
+      "row_data": {
+        "Product_ID": "P013",
+        "Product": "HDD Archive",
+        "Category": "Storage",
+        "Price_INR": 4800.0,
+        "Sales_Units": 320,
+        "Rating": 4.2
+      }
+    }
+  },
+  {
+    "page_content": "Product USB Pocket belongs to Storage.\nProduct ID is P014.\nPrice is 900 INR.\nSales are 890 units.\nRating is 4.1 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 15,
+      "row_data": {
+        "Product_ID": "P014",
+        "Product": "USB Pocket",
+        "Category": "Storage",
+        "Price_INR": 900.0,
+        "Sales_Units": 890,
+        "Rating": 4.1
+      }
+    }
+  },
+  {
+    "page_content": "Product Memory Card Pro belongs to Storage.\nProduct ID is P015.\nPrice is 1400 INR.\nSales are 710 units.\nRating is 4.4 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 16,
+      "row_data": {
+        "Product_ID": "P015",
+        "Product": "Memory Card Pro",
+        "Category": "Storage",
+        "Price_INR": 1400.0,
+        "Sales_Units": 710,
+        "Rating": 4.4
+      }
+    }
+  },
+  {
+    "page_content": "Product Desk Rise belongs to Furniture.\nProduct ID is P016.\nPrice is 16000 INR.\nSales are 120 units.\nRating is 4.7 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 17,
+      "row_data": {
+        "Product_ID": "P016",
+        "Product": "Desk Rise",
+        "Category": "Furniture",
+        "Price_INR": 16000.0,
+        "Sales_Units": 120,
+        "Rating": 4.7
+      }
+    }
+  },
+  {
+    "page_content": "Product Chair Comfort belongs to Furniture.\nProduct ID is P017.\nPrice is 12500 INR.\nSales are 260 units.\nRating is 4.9 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 18,
+      "row_data": {
+        "Product_ID": "P017",
+        "Product": "Chair Comfort",
+        "Category": "Furniture",
+        "Price_INR": 12500.0,
+        "Sales_Units": 260,
+        "Rating": 4.9
+      }
+    }
+  },
+  {
+    "page_content": "Product Desk Lamp Glow belongs to Furniture.\nProduct ID is P018.\nPrice is 1800 INR.\nSales are 410 units.\nRating is 4.3 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 19,
+      "row_data": {
+        "Product_ID": "P018",
+        "Product": "Desk Lamp Glow",
+        "Category": "Furniture",
+        "Price_INR": 1800.0,
+        "Sales_Units": 410,
+        "Rating": 4.3
+      }
+    }
+  },
+  {
+    "page_content": "Product Laptop Stand Lift belongs to Accessories.\nProduct ID is P019.\nPrice is 2200 INR.\nSales are 360 units.\nRating is 4.6 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 20,
+      "row_data": {
+        "Product_ID": "P019",
+        "Product": "Laptop Stand Lift",
+        "Category": "Accessories",
+        "Price_INR": 2200.0,
+        "Sales_Units": 360,
+        "Rating": 4.6
+      }
+    }
+  },
+  {
+    "page_content": "Product Docking Station Hub belongs to Accessories.\nProduct ID is P020.\nPrice is 8500 INR.\nSales are 175 units.\nRating is 4.7 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 21,
+      "row_data": {
+        "Product_ID": "P020",
+        "Product": "Docking Station Hub",
+        "Category": "Accessories",
+        "Price_INR": 8500.0,
+        "Sales_Units": 175,
+        "Rating": 4.7
+      }
+    }
+  },
+  {
+    "page_content": "Product Projector Beam belongs to Electronics.\nProduct ID is P021.\nPrice is 42000 INR.\nSales are 85 units.\nRating is 4.5 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 22,
+      "row_data": {
+        "Product_ID": "P021",
+        "Product": "Projector Beam",
+        "Category": "Electronics",
+        "Price_INR": 42000.0,
+        "Sales_Units": 85,
+        "Rating": 4.5
+      }
+    }
+  },
+  {
+    "page_content": "Product Speaker Mini belongs to Electronics.\nProduct ID is P022.\nPrice is 2900 INR.\nSales are 440 units.\nRating is 4.2 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 23,
+      "row_data": {
+        "Product_ID": "P022",
+        "Product": "Speaker Mini",
+        "Category": "Electronics",
+        "Price_INR": 2900.0,
+        "Sales_Units": 440,
+        "Rating": 4.2
+      }
+    }
+  },
+  {
+    "page_content": "Product Power Bank Travel belongs to Accessories.\nProduct ID is P023.\nPrice is 2400 INR.\nSales are 580 units.\nRating is 4.4 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 24,
+      "row_data": {
+        "Product_ID": "P023",
+        "Product": "Power Bank Travel",
+        "Category": "Accessories",
+        "Price_INR": 2400.0,
+        "Sales_Units": 580,
+        "Rating": 4.4
+      }
+    }
+  },
+  {
+    "page_content": "Product Charger Fast belongs to Accessories.\nProduct ID is P024.\nPrice is 1600 INR.\nSales are 760 units.\nRating is 4.5 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 25,
+      "row_data": {
+        "Product_ID": "P024",
+        "Product": "Charger Fast",
+        "Category": "Accessories",
+        "Price_INR": 1600.0,
+        "Sales_Units": 760,
+        "Rating": 4.5
+      }
+    }
+  },
+  {
+    "page_content": "Product Cable USB-C belongs to Accessories.\nProduct ID is P025.\nPrice is 500 INR.\nSales are 950 units.\nRating is 4.3 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 26,
+      "row_data": {
+        "Product_ID": "P025",
+        "Product": "Cable USB-C",
+        "Category": "Accessories",
+        "Price_INR": 500.0,
+        "Sales_Units": 950,
+        "Rating": 4.3
+      }
+    }
+  },
+  {
+    "page_content": "Product Notebook Classic belongs to Stationery.\nProduct ID is P026.\nPrice is 120 INR.\nSales are 1100 units.\nRating is 4.2 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 27,
+      "row_data": {
+        "Product_ID": "P026",
+        "Product": "Notebook Classic",
+        "Category": "Stationery",
+        "Price_INR": 120.0,
+        "Sales_Units": 1100,
+        "Rating": 4.2
+      }
+    }
+  },
+  {
+    "page_content": "Product Pen Smooth belongs to Stationery.\nProduct ID is P027.\nPrice is 40 INR.\nSales are 1500 units.\nRating is 4.4 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 28,
+      "row_data": {
+        "Product_ID": "P027",
+        "Product": "Pen Smooth",
+        "Category": "Stationery",
+        "Price_INR": 40.0,
+        "Sales_Units": 1500,
+        "Rating": 4.4
+      }
+    }
+  },
+  {
+    "page_content": "Product Whiteboard Team belongs to Stationery.\nProduct ID is P028.\nPrice is 3500 INR.\nSales are 155 units.\nRating is 4.6 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 29,
+      "row_data": {
+        "Product_ID": "P028",
+        "Product": "Whiteboard Team",
+        "Category": "Stationery",
+        "Price_INR": 3500.0,
+        "Sales_Units": 155,
+        "Rating": 4.6
+      }
+    }
+  },
+  {
+    "page_content": "Product Backpack Work belongs to Accessories.\nProduct ID is P029.\nPrice is 2800 INR.\nSales are 295 units.\nRating is 4.7 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 30,
+      "row_data": {
+        "Product_ID": "P029",
+        "Product": "Backpack Work",
+        "Category": "Accessories",
+        "Price_INR": 2800.0,
+        "Sales_Units": 295,
+        "Rating": 4.7
+      }
+    }
+  },
+  {
+    "page_content": "Product UPS Shield belongs to Electronics.\nProduct ID is P030.\nPrice is 7200 INR.\nSales are 185 units.\nRating is 4.5 out of 5.",
+    "metadata": {
+      "type": "csv",
+      "source": "products.csv",
+      "source_path": "excel/products.csv",
+      "content_kind": "table_row",
+      "row": 31,
+      "row_data": {
+        "Product_ID": "P030",
+        "Product": "UPS Shield",
+        "Category": "Electronics",
+        "Price_INR": 7200.0,
+        "Sales_Units": 185,
+        "Rating": 4.5
+      }
+    }
+  }
+]
